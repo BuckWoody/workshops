@@ -1,4 +1,7 @@
-# lab03.1-tdsp_and_amls - The Team Data Science Process using Azure Machine Learning
+# Microsoft Labs -  The Team Data Science Process using Azure Machine Learning
+
+### Author: Buck Woody, Applied Data Scientist, Microsoft Research and AI Team
+
 This hands-on lab guides you through using the [Team Data Science Process](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/overview) using [Azure Machine Learning Services](https://docs.microsoft.com/en-us/azure/machine-learning/preview/overview-what-is-azure-ml) with the Azure Machine Learning Workbench. 
 
 In this workshop, you will:

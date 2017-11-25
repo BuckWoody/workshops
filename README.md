@@ -6,7 +6,7 @@ You'll find the source materials for the workshop labs here. Note that the labs 
 
 ### Workshops List
 
-  - [Microsoft MAchine Learning and the Team Data Science Process](https://buckwoody.github.io/workshops/DataScienceAndTDSP/)
+  - [Microsoft Azure Machine Learning Services (ALMS) and the Team Data Science Process](https://buckwoody.github.io/workshops/DataScienceAndTDSP/)
 
 ### Support or Contact
 

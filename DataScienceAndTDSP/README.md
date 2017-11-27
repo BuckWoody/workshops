@@ -2,7 +2,9 @@
 
 ### Author: Buck Woody, Applied Data Scientist, Microsoft Research and AI Team
 
-This hands-on lab guides you through using the [Team Data Science Process](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/overview) using [Azure Machine Learning Services](https://docs.microsoft.com/en-us/azure/machine-learning/preview/overview-what-is-azure-ml) with the Azure Machine Learning Workbench. 
+This hands-on lab guides you through using the [Team Data Science Process](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/overview) using [Azure Machine Learning Services](https://docs.microsoft.com/en-us/azure/machine-learning/preview/overview-what-is-azure-ml) with the Azure Machine Learning Workbench (AMLS WB). The Workbench is part of a suite of tools used in the Microsoft AI Platform: 
+
+![AIPlatform](https://azurecomcdn.azureedge.net/mediahandler/acomblog/media/Default/blog/a1a81c91-55a6-4f44-8e05-d67663f06444.png)
 
 In this workshop, you will:
 - Understand and use the TDSP to clearly define business goals and success criteria

@@ -7,13 +7,13 @@ This hands-on lab guides you through using the [Team Data Science Process](https
 ![AIPlatform](https://azurecomcdn.azureedge.net/mediahandler/acomblog/media/Default/blog/a1a81c91-55a6-4f44-8e05-d67663f06444.png)
 
 In this workshop, you will:
-- Understand and use the TDSP to clearly define business goals and success criteria
-- Use a code-repository system with the Azure Machine Learning Workbench using the TDSP structure
-- Create an example environment
-- Use the TDSP and AMLS for data acquisition and understanding
-- Use the TDSP and AMLS for creating an experiment with a model and evaluation of models
-- Use the TDSP and AMLS for deployment
-- Use the TDSP and AMLS for project close-out and customer acceptance
+- [ ] Understand and use the TDSP to clearly define business goals and success criteria
+- [ ] Use a code-repository system with the Azure Machine Learning Workbench using the TDSP structure
+- [ ] Create an example environment
+- [ ] Use the TDSP and AMLS for data acquisition and understanding
+- [ ] Use the TDSP and AMLS for creating an experiment with a model and evaluation of models
+- [ ] Use the TDSP and AMLS for deployment
+- [ ] Use the TDSP and AMLS for project close-out and customer acceptance
 
 You'll focus on the objectives above, not Data Science, Machine Learning or a difficult scenario.  
 
@@ -44,7 +44,7 @@ There is a comprehensive Learning Path you can use to prepare for this course [l
 
   *  Or you can use a Windows Data Science Virtual Machine (DSVM) to run this lab: 
         *  [Navigate to this path](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoft-ads.windows-data-science-vm), and create a Windows Azure Data Science Virtual Machine (DSVM). 
-           *  Choose a VM size of: D4S_V3, with 4 virtual CPUs and 14-Gb RAM. This VM size is not available in all regions, so choose an appropriate region (`East US 2` is a good choice).
+           *  Choose a VM size of: D4S_V3, with 4 virtual CPUs and 14-Gb RAM. This VM size is not available in all regions, so choose an appropriate region (`West US 2` is a good choice).
            *  When the DSVM is deployed, start it using the [Azure portal.](https://portal.azure.com)
         *  After you create and Start the DSVM, log in to it and double-click the "Install Azure Machine Learning Workbench" icon. Finish the installation by following the on-screen instructions. The installer downloads all the necessary dependent components, such as Python, Miniconda, and other related libraries. The installation might take around half an hour to finish all the components. When complete, the Azure Machine Learning Workbench is installed in the following directory: C:\\Users\\%USERNAME%\\AppData\\Local\\AmlWorkbench
 
@@ -55,6 +55,8 @@ There is a comprehensive Learning Path you can use to prepare for this course [l
 ## 1. Business Understanding
 In the [Business Understanding](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/lifecycle-business-understanding) phase of the TDSP, you discover the questions that the organization would like answered from data. This is a group effort, involving the organization, the Data Science team, and the DevOps team along with other stakeholders. 
 
+![Image](resources/docs/images/contosologo.gif)
+
 Contoso Organics has requested a model that will predict whether a population of people makes over 50,000.00 US dollars a year, from data they have collected. 
 
 We will use the Azure Machine Learning Services (AMLS) and the Azure Machine Learning Services Workbench (WB) in this lab. The general configuration for working with Azure Machine Learning has these components:
@@ -64,15 +66,15 @@ We will use the Azure Machine Learning Services (AMLS) and the Azure Machine Lea
 
 ### Lab: Set Up TDSP Structure using the Azure Machine Learning Workbench
 In this lab you'll set up your project's structure, conforming to the Team Data Science Process, using the Azure Machine Learning Workbench.
-- [Open this link](https://docs.microsoft.com/en-us/azure/machine-learning/preview/how-to-use-tdsp-in-azure-ml), read from the top and complete the steps there. Do not complete the steps marked **"Next Steps"**. Enter the git repo text you brought with you to class. 
-- [Review this link](https://github.com/Azure/Azure-TDSP-ProjectTemplate) and verify that you have the structure shown in the directory you specified. You will use this structure throughout this workshop.
+- [ ] [Open this link](https://docs.microsoft.com/en-us/azure/machine-learning/preview/how-to-use-tdsp-in-azure-ml), read from the top and complete the steps there. Do not complete the steps marked **"Next Steps"**. Enter the git repo text you brought with you to class. 
+- [ ] [Review this link](https://github.com/Azure/Azure-TDSP-ProjectTemplate) and verify that you have the structure shown in the directory you specified. You will use this structure throughout this workshop.
 
 ### Optional Lab: Use-case evaluation for Data Science questions
 In this lab you'll evaluate a business scenario, and detail possible predictions, classifications, or other data science questions that you can begin to explore.
-- Read the scenario below carefully. Copy and paste the Scenario text below into a text file called *Business Understanding.md* in the /docs directory set up in the previous lab.
-- Detail a question you could begin to explore answering with a prediction or classification algorithm. Enter that question in your *Business Understanding.md* text file. 
-- Which algorithm or family of algorithms could you use to answer your question? Enter that answer in your *Business Understanding.md* text file.
-- What data sources will you need to complete your prediction? Enter possible sources in your *Business Understanding.md* text file.
+- [ ] Read the scenario below carefully. Copy and paste the Scenario text below into a text file called *Business Understanding.md* in the /docs directory set up in the previous lab.
+- [ ] Detail a question you could begin to explore answering with a prediction or classification algorithm. Enter that question in your *Business Understanding.md* text file. 
+- [ ] Which algorithm or family of algorithms could you use to answer your question? Enter that answer in your *Business Understanding.md* text file.
+- [ ] What data sources will you need to complete your prediction? Enter possible sources in your *Business Understanding.md* text file.
 
 #### Optional Example Scenario: 
 The Orange Telecom company in France is one of the largest operators of mobile and internet services in Europe and Africa and a global leader in corporate telecommunication services. They have 256 million customers worldwide. They have significant coverage in France, Spain, Belgium, Poland, Romania, Slovakia Moldova, and a large presence Africa and the Middle East.
@@ -87,9 +89,9 @@ In this workshop, we'll use a single file-based dataset from the U.S. Census to 
 ### Lab: Ingest data from a local source
 In this lab you will load the data set, inspect it, make a few changes, and then save the Data Wrangling steps as a Python package. 
 
-- Open [this reference](https://docs.microsoft.com/en-us/azure/machine-learning/preview/scenario-tdsp-classifying-us-incomes), and complete all sections. 
-- In the Azure Machine Learning Services Workbench, open the **code/01_data_acquisition_and_understanding/Main.py** file and run it (use the pull-down menu in the main project screen). This will take some time - allow it to complete. 
-- This example uses the IDEAR methodology to examine the data. Open the directory where you stored your project, and examine the **WhateverYouNamedYourProject\docs\deliverable_docs\IDEAR.html** file in a web browser for the code and results. 
+- [ ] Open [this reference](https://docs.microsoft.com/en-us/azure/machine-learning/preview/scenario-tdsp-classifying-us-incomes), and complete all sections.  
+- [ ] In the Azure Machine Learning Services Workbench, open the **code/01_data_acquisition_and_understanding/Main.py** file and run it (use the pull-down menu in the main project screen). This will take some time - allow it to complete. 
+- [ ] This example uses the IDEAR methodology to examine the data. Open the directory where you stored your project, and examine the **WhateverYouNamedYourProject\docs\deliverable_docs\IDEAR.html** file in a web browser for the code and results. 
 
 ## 3. Modeling
 The [Modeling](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/lifecycle-modeling) phase of the Team Data Science Process involves creating experiments using one or more algorithms and base data to create a repeatable prediction or classification. 
@@ -100,10 +102,12 @@ The [Modeling](https://docs.microsoft.com/en-us/azure/machine-learning/team-data
 
 ### Lab: Feature Engineering, Modeling, and Scoring
 In this lab we'll use the same project you just completed - the "Classify US Incomes" one. You'll create your feature engineering file, run the model training, and create the final scores.
-- In the Azure Machine Learning Services Workbench, open the **code/01_data_acquisition_and_understanding/Main_FeatureEngineering.py** file and run it to perform the Feature Engineering. You will see the Job status in the right-hand pane and in the Job History section of the Workbench.
-- In the Azure Machine Learning Services Workbench, open the **code/01_data_acquisition_and_understanding/Main_ModelCreation.py** file and run it to create your model.  You will see the Job status in the right-hand pane and in the Job History section of the Workbench.
-- [ ] In the Azure Machine Learning Services Workbench, open the **code/01_data_acquisition_and_understanding/Main_ScoringAndEvaluation.py** 
-file and run it.  You will see the Job status in the right-hand pane. When the scoring completes, click that item and open the **driver_log** you find in the Run History. You will see the AUC for the two algorithms compared.
+- [ ] In the Azure Machine Learning Services Workbench, open the **code/02_modeling/Main_FeatureEngineering.py** file and run it to perform the Feature Engineering. You will see the Job status in the right-hand pane and in the Job History section of the Workbench.
+- [ ] In the Azure Machine Learning Services Workbench, open the **code/02_modeling/Main_ModelCreation.py** file and run it to create your model.  You will see the Job status in the right-hand pane and in the Job History section of the Workbench.
+- [ ] In the Azure Machine Learning Services Workbench, open the **code/02_modeling/Main_ScoringAndEvaluation.py** 
+file and run it.  
+- [ ] When these processes complete, you will see the Job status for each in the right-hand pane. Click the click the **code/02_modeling/Main_ScoringAndEvaluation.py** item and open the **driver_log** you find in the Run History. You will see the AUC for the two algorithms compared.
+- [ ] Now you need the serialized model file ("pickle file") saved off so that the code in the deployment section that follows can send the model to a container. To do that, look in the Job Status pane again and this time click the **code/02_modeling/Main_ModelCreation.py** item. In the **Output** area there you will see two models. Select the **CVRandomForestModel.pkl** file, select **Download** and save the file in the root of the project folder - You can find this in the "Project Dashboard" view in the Workbench, as the "Location" shown there. 
 
 ## 4. Deployment
 The [Deployment](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/lifecycle-deployment) phase of the TDSP entails outputting  the results to a data location, creating an Application Programming Interface (API) or another mechanism for the classification or prediction model to be consumed. 
@@ -114,26 +118,35 @@ An outline of this process is here:
  
 ### Lab: Deploy the solution using Containers
 In this lab you will deploy the solution to Azure Container Services (ACS) for worldwide deployment. 
-- [Navigate to this location and follow the instructions you see there.](https://github.com/Azure/MachineLearningSamples-TDSPUCIAdultIncome/tree/master/code/03_deployment). NOTE: You do not have to call the web service (the last two steps) at this time. 
+- [ ] Click **File** then **Open Command Prompt** in the Workbench
+- [ ] In the Workbench, Open the **Files** area, and navigate to the **code/03_deployment/readme.md** file. Click the **Edit** button at the top of the Workbench and follow along with the instructor for the changes to make there. You will copy and paste each of the commands shown in the Command Prompt. 
+
+#### NOTES:  
+ -  Select the subscription you wish to create the account in
+ -  You may add -g and a current Resource Group if you wish to use one you already have. Otherwise, the commands shown will create a new one for you.
+ -  <yourclustername> is any name you wish
+ -  Use eastus2 for the location
+ -  You do not have to call the web service (the last two steps) at this time. 
 
 ## 5. Customer Acceptance
 The final step in the Team Data Science Process is [Customer Acceptance](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/lifecycle-acceptance). Here you focus on ensuring that the model performed within acceptable time and accuracy rates, and also present your findings in a comprehensive project document.
 ### Lab: Review Customer Acceptance and Closeout Documentation
 In this lab you will examine the final project close out document. In production implementations, you and your team will create this document. 
-- open the **WhateverYouNamedYourProject\docs\deliverable_docs\ProjectReport.md** file and examine its contents.
-- Is there more information needed there? Are there items you would also include? How should this document be communicated? Are there security implications?
+- [ ] open the **WhateverYouNamedYourProject\docs\deliverable_docs\ProjectReport.md** file and examine its contents.
+- [ ] Is there more information needed there? Are there items you would also include? How should this document be communicated? Are there security implications?
 
 ## Workshop Completion
 In this workshop you learned how to:
-- Understand and use the TDSP to clearly define business goals and success criteria
-- Use a code-repository system with the Azure Machine Learning Workbench using the TDSP structure
-- Create an example environment
-- Use the TDSP and AMLS for data acquisition and understanding
-- Use the TDSP and AMLS for creating an experiment with a model and evaluation of models
-- Use the TDSP and AMLS for deployment
-- Use the TDSP and AMLS for project close-out and customer acceptance
+- [ ] Understand and use the TDSP to clearly define business goals and success criteria
+- [ ] Use a code-repository system with the Azure Machine Learning Workbench using the TDSP structure
+- [ ] Create an example environment
+- [ ] Use the TDSP and AMLS for data acquisition and understanding
+- [ ] Use the TDSP and AMLS for creating an experiment with a model and evaluation of models
+- [ ] Use the TDSP and AMLS for deployment
+- [ ] Use the TDSP and AMLS for project close-out and customer acceptance
 
 You may now delete and decommission the following resources if you wish:
   * The Azure Machine Learning Services accounts and workspaces
   * The Visual Studio Team Services Repository
   * Any Data Science Virtual Machines you have created. NOTE: Even if "Shutdown" in the Operating System, unless these Virtual Machines are "Stopped" using the Azure Portal you are incurring run-time charges. If you Stop them in the Azure Portal, you will be charged for the storage the Virtual Machines are consuimg. 
+

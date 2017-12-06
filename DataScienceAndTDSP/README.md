@@ -1,9 +1,10 @@
 ## aka.ms/workshops
-
+------
 
 ## Microsoft Workshops -  The Team Data Science Process using Azure Machine Learning Services
+------
 
-### Author: Buck Woody, Applied Data Scientist, Microsoft Research and AI Team
+#### Author: Buck Woody, Applied Data Scientist, Microsoft Research and AI Team
 
 This hands-on lab guides you through using the [Team Data Science Process](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/overview) using [Azure Machine Learning Services](https://docs.microsoft.com/en-us/azure/machine-learning/preview/overview-what-is-azure-ml) with the Azure Machine Learning Workbench (AMLS WB). The Workbench is part of a suite of tools used in the Microsoft AI Platform: 
 

@@ -7,6 +7,7 @@ You'll find the source materials for the workshop labs here. Note that the labs 
 ### Workshops List
 
   - [Microsoft Azure Machine Learning Services (ALMS) and the Team Data Science Process](https://buckwoody.github.io/workshops/DataScienceAndTDSP/)
+  - [The Team Data Science Process with Python](https://github.com/BuckWoody/workshops/tree/master/TDSPPython)
 
 ### Support or Contact
 

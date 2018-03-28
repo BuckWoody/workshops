@@ -1,3 +1,5 @@
+<img style="float: right;" src="./TDSPPython/assets/solutions-microsoft-logo-small.png">
+
 ## Welcome to the Microsoft Workshops page for AI and Data Science
 
 ### Author: Buck Woody, Applied Data Scientist, Microsoft Research and AI

@@ -2,11 +2,13 @@
 
 # The Team Data Science Process Workshop
 
+# https://aka.ms/tdspnotebook
+
 ## Microsoft Cloud and AI
 
 The Team Data Science Process (TDSP) is an agile, iterative data science methodology to deliver predictive analytics solutions and intelligent applications efficiently. TDSP helps improve team collaboration and learning. It contains a distillation of the best practices and structures from Microsoft and others in the industry that facilitate the successful implementation of data science initiatives. The goal is to help companies fully realize the benefits of their analytics program.
 
-TDSP comprises of the following key components:
+The TDSP is comprised of the following key components:
 
  - A data science lifecycle definition
  - A standardized project structure
@@ -22,4 +24,4 @@ TDSP comprises of the following key components:
 
   - You can simply use this notebook from this location, and clone it in to your own notebook: [https://notebooks.azure.com/BuckWoodyNoteBooks/libraries/TDSPPython](https://notebooks.azure.com/BuckWoodyNoteBooks/libraries/TDSPPython)
   - New to Azure Notebooks? More here: [https://notebooks.azure.com/help/libraries](https://notebooks.azure.com/help/libraries)
-  - It is also kept up to date here: [https://github.com/BuckWoody/workshops.git](https://github.com/BuckWoody/workshops.git)
+  - [The Microsoft AI Landscape is here](https://blogs.msdn.microsoft.com/buckwoody/2018/03/27/introduction-to-the-microsoft-ai-platform/)

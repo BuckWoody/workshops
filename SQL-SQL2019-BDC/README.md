@@ -153,7 +153,7 @@ This solution includes the following technologies - although you are not limited
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px; height: 30;" src="./graphics/pin.jpg">Before Taking this Course</h2>
+<h2><img style="float: left; margin: 0px 15px 15px 0px; height: 30;" src="./graphics/pin.jpg"> Before Taking this Course</h2>
 
 You'll need a local system that you are able to install software on. The workshop demonstrations use Microsoft Windows as an operating system and all examples use Windows for the course. Optionally, you can use a Microsoft Azure Virtual Machine (VM) to install the software on and work with the solution.
 
@@ -173,9 +173,9 @@ If you are new to these, here are a few references you can complete prior to cla
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px; height: 15;" src="./graphics/check.png">Course Details</h2>
+<h2><img style="float: left; margin: 0px 15px 15px 0px; height: 15;" src="./graphics/check.png"> Course Details</h2>
 
-This workshop uses Microsoft Azure, SQL Server, and Kubernetes, with a focus on architecture and implementation.
+This workshop uses Azure Data Studio, Microsoft Azure AKS, and SQL Server (2019 and higher) with a focus on architecture and implementation.
 
 <table style="tr:nth-child(even) {background-color: #f2f2f2;}; text-align: left; display: table; border-collapse: collapse; border-spacing: 2px; border-color: gray;">
 
@@ -189,13 +189,13 @@ This workshop uses Microsoft Azure, SQL Server, and Kubernetes, with a focus on 
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px; height: 20;" src="./graphics/files.jpg">Related Courses</h2>
+<h2><img style="float: left; margin: 0px 15px 15px 0px; height: 20;" src="./graphics/files.jpg"> Related Courses</h2>
 
 [Technical guide to the Cortana Intelligence Solution Template for predictive maintenance in aerospace and other businesses](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/cortana-analytics-technical-guide-predictive-maintenance)
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/cortanalogo.png">Course Outline</h2>
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/cortanalogo.png"> Course Outline</h2>
 
 This is a modular course, and in each section, you'll learn concepts, technologies and processes to help you complete the solution.
 
@@ -203,7 +203,7 @@ This is a modular course, and in each section, you'll learn concepts, technologi
 
   <tr><td style="background-color: #965a11; color: white;">Module</td><td>Topics</td></tr>
 
-  <tr><td><a href="ML%20Services%20for%20SQL%20Server/01%20Project%20Methodology%20and%20Data%20Science.md" target="_blank">The Big Data Landscape</a></td><td>Overview of the course, problem space, solution options and architectures</td></tr>
+  <tr><td><a href="ML%20Services%20for%20SQL%20Server/01%20Project%20Methodology%20and%20Data%20Science.md" target="_blank"> The Big Data Landscape</a></td><td>Overview of the course, problem space, solution options and architectures</td></tr>
   <tr><td>Components</td><td>Abstraction levels, frameworks, architectures and components within SQL Server Big Data Clusters</td></tr>
   <tr><td>Planning, Installation and Configuration</td><td>Mapping needs requirements to architecture design, constraints, </td></tr>
   <tr><td>Processes and Procedures</td><td>TODO</td></tr>
@@ -214,6 +214,6 @@ This is a modular course, and in each section, you'll learn concepts, technologi
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/thinking.jpg"><b>Next Steps</b></p>
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/thinking.jpg"><b >Next Steps</b></p>
 
-Next, Continue to <a href="ML%20Services%20for%20SQL%20Server/00%20Pre-Requisites.md" target="_blank"><i>Pre-Requisites</i></a>.
+Next, Continue to <a href="ML%20Services%20for%20SQL%20Server/00%20Pre-Requisites.md" target="_blank"><i> Pre-Requisites</i></a>.

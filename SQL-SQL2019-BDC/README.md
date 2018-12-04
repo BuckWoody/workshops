@@ -6,7 +6,7 @@
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px; height: 20;" src="./graphics/thinking.jpg">About this Course</h2>
+<h2><img style="float: left; margin: 0px 15px 15px 0px; height: 20;" src="./graphics/thinking.jpg"> About this Course</h2>
 
 Welcome to this Microsoft Solutions course on *Microsoft SQL Server Big Data Clusters Architecture*. In this course, you'll learn how SQL Server big data clusters implements machine learning, and how to select and plan for the proper architecture to enable machine learning to train your models using Python, R, Java or SparkML to operationalize these models, and how to deploy your intelligent apps side-by-side with their data.
 
@@ -20,7 +20,7 @@ This README.MD file explains how the course is laid out, what you will learn, an
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px; height: 35;" src="./graphics/brain.png">Learning Objectives</h2>
+<h2><img style="float: left; margin: 0px 15px 15px 0px; height: 35;" src="./graphics/brain.png"> Learning Objectives</h2>
 
 In this course you'll learn:
 
@@ -40,11 +40,61 @@ In this course you'll learn:
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h3>Data Science and Business Applications of this course</h3>
+<h3>Business Applications of this course</h3>
 
-Businesses require near real-time insights from ever-larger sets of data. In particular, logs and device telemetry ingestion requires storage and processing of large amounts of data each day. In addition to simply querying this data, organizations want full analysis and even predictive capabilities over their data.
+Businesses require near real-time insights from ever-larger sets of data. Large-scale data ingestion requires scale-out storage and processing in ways that allow fast response times. In addition to simply querying this data, organizations want full analysis and even predictive capabilities over their data. A few industry examples of big data processing are:
 
-While large-scale data processing exists, it's often batch-based, which has a lag in the time from query to response. Also, batch systems such as Hadoop are complicated to set up and manage. Operational data is often stored in SQL Server databases, and joining that data to larger-scale systems exposes security weaknesses and brittle architectures.
+### Retail
+
+ - Demand prediction
+ - In-store analytics
+ - Supply chain optimization
+ - Customer retention
+ - Cost/Revenue analytics
+ - HR analytics
+ - Inventory control
+
+### Finance
+
+ - Cyberattack
+ - Fraud detection
+ - Customer segmentation
+ - Market analysis
+ - Risk analysis
+ - Blockchain
+ - Customer retention
+
+### Healthcare
+
+ - Fiscal control analytics
+ - Disease Prevention prediction and classification
+ - Clinical Trials optimization
+ - Patient load analysis
+ - Episode analytics
+
+### Public Sector
+
+ - Revenue prediction
+ - Education effectiveness analysis
+ - Transportation analysis and prediction
+ - Energy demand and supply prediction and control
+ - Defense readiness predictions and threat analysis
+
+### Manufacturing
+
+ - Predictive Maintenance (PdM)
+ - Anomaly Detection
+ - Pattern analysis
+
+### Agriculture
+
+ - Food Safety analysis
+ - Crop forecasting
+ - Market forecasting
+ - Pipeline Optimization
+
+
+While solutions for large-scale data processing exist, they are often batch-based, which has a lag in the time from query to response. Also, batch systems such as Hadoop are complicated to set up and manage. Operational data is often stored in Relational Database systems on-premises, and joining that data to larger-scale clud systems exposes security weaknesses and brittle architectures.
 
 Starting in SQL Server 2019, the Big Data Clusters feature allows for large-scale, near real-time processing of data over the HDFS file system and also using Apache Spark, integrated into one platform for management, monitoring and security. This means that organizations can implement everything from queries to analysis to Machine Learning and Artificial Intelligence within SQL Server. SQL Server Big Data Clusters can be implemented fully on-premises, in the cloud using a Kubernetes service such as Azure's AKS, and in a hybrid fashion. This allows for full, partial, and mixed security as required.
 
@@ -77,7 +127,7 @@ In this diagram, the solution is <TODO>.
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px; height: 20;" src="./graphics/keyboard.jpg">Technologies</h2>
+<h2><img style="float: left; margin: 0px 15px 15px 0px; height: 20;" src="./graphics/keyboard.jpg"> Technologies</h2>
 
 This solution includes the following technologies - although you are not limited to these, they form the basis of the course. At the end of the course you will learn how to extrapolate these components into other solutions. You will cover these at an overview level, with references to much deeper training provided.
 
@@ -98,27 +148,6 @@ This solution includes the following technologies - although you are not limited
   <tr><td>Microsoft Data Science Process (TDSP)</td><td>Project, Development, Control and Management framework</td></tr>
   <tr><td><i>Monitoring and Management</i></td><td>Dashboards, logs, API's and other constructs to manage and monitor the solution<td><i></i></td></tr>
   <tr><td><i>Security</i></td><td>RBAC, Keys, Secrets, VNETs and Compliance for the solution<td><i></i></td></tr>
-
-</table>
-
-<p style="border-bottom: 1px solid lightgrey;"></p>
-
-<h2><img style="float: left; margin: 0px 15px 15px 0px; height: 20;" src="./graphics/aml-logo.png">Industries</h2>
-
-The workshop's solution uses a single industry for learning the tools and concepts, but it extrapolates to many industries. For instance, Predictive Maintenance is an important use-case that often generates large amounts of data, and often has a need to keep at least some of the data private. SQL Server Big Data Clusters has the ability for deployments on-premises, in the cloud, or in a hybrid configuration.
-
- <table style="tr:nth-child(even) {background-color: #f2f2f2;}; text-align: left; display: table; border-collapse: collapse; border-spacing: 2px; border-color: gray;">
-
-  <tr><th style="background-color: #155c0d; color: white;">Industry</th><th>Examples of relevant scenarios</th></tr>
-
-<tr><td>Aerospace - <i>Flight delay and cancellations</i></td><td>Flight route information in the form of flight legs and page logs. Flight leg data includes routing details such as departure/arrival date, time, airport, layovers etc. Page log includes a series of error and maintenance codes recorded by the ground maintenance personnel.</td></tr>
-<tr><td>Aerospace - <i>Aircraft engine parts failure</i></td><td>Data collected from sensors in the aircraft that provide information on the condition of the various parts. Maintenance records help identify when component failures occurred and when they were replaced.</td></tr>
-<tr><td>Finance - <i>ATM Failure</i></td><td>Sensor readings for each transaction (depositing cash/check) and dispensing of cash. Information on gap measurement between notes, note thickness, note arrival distance, check attributes etc. Maintenance records that provide error codes, repair information, last time the cash dispenser was refilled.</td></tr>
-<tr><td>Public Utilities - <i>Wind turbine or line Power failure</i></td><td>Sensors monitor turbine conditions such as temperature, wind direction, power generated, generator speed etc. Data is gathered from multiple wind turbines from wind farms located in various regions. Typically, each turbine will have multiple sensor readings relaying measurements at a fixed time interval.</td></tr>
-<tr><td>Public Utilities - <i>Circuit breaker failures</i></td><td>Maintenance logs that include corrective, preventive, and systematic actions. Operational data that includes automatic and manual commands sent to circuit breakers such as for open and close actions. Device metadata such as date of manufacture, location, model, etc. Circuit breaker specifications such as voltage levels, geolocation, ambient conditions.</td></tr>
-<tr><td>Facilities - <i>Door and other automatic surfaces failures<i></td><td>Door metadata such as type of elevator, manufactured date, maintenance frequency, building type, and so on. Operational information such as number of door cycles, average door close time. Failure history with causes.</td></tr>
-<tr><td>Manufacturing - <i>Component failures</i></td><td>Sensor data that measures  acceleration, braking instances, distance, velocity etc. Static information on wheels like manufacturer, manufactured date. Failure data inferred from part order database that track order dates and quantities.</td></tr>
-<tr><td>Transportation - <i>Subway train door failures/Bus component failures</i></td><td>Door opening and closing times, other operational data such as current condition of train or bus components. Static data would include asset identifier, time, and condition value columns.</td></tr>
 
 </table>
 

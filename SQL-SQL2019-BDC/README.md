@@ -16,7 +16,7 @@ You'll start by understanding the concepts of big data analytics and data virtua
 
 This README.MD file explains how the course is laid out, what you will learn, and the technologies you will use in this solution.
 
-(You can view all of the [source files for this course on this github site, along with other courses as well. Open this link in a new tab to find out more.](https://github.com/BuckWoody/presentations))
+(You can view all of the [source files for this course on this github site, along with other courses as well. Open this link in a new tab to find out more.](https://github.com/BuckWoody/workshops))
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
@@ -133,7 +133,8 @@ This solution includes the following technologies - although you are not limited
 
  <table style="tr:nth-child(even) {background-color: #f2f2f2;}; text-align: left; display: table; border-collapse: collapse; border-spacing: 2px; border-color: gray;">
 
-  <tr><th style="background-color: #1b20a1; color: white;">Technology</th> <th>Description</th></tr>
+  <tr><th style="background-color: #1b20a1; color: white;">Technology</th> <th style="background-color: #1b20a1; color: white;">Description</th></tr>
+
   <tr><td>Linux</td><td>Operating system used in Containers and Container management (Kubernetes)</td></tr>
   <tr><td><i>git</i></td><td>Source control management system</td></tr>
   <tr><td><i>Containers</i></td><td>Encapsulation level for the SQL Server Big Data Cluster architecture</td></tr>
@@ -177,13 +178,13 @@ If you are new to these, here are a few references you can complete prior to cla
 
 This workshop uses Azure Data Studio, Microsoft Azure AKS, and SQL Server (2019 and higher) with a focus on architecture and implementation.
 
-<table style="tr:nth-child(even) {background-color: #f2f2f2;}; text-align: left; display: table; border-collapse: collapse; border-spacing: 2px; border-color: gray;">
+<table style="tr:nth-child(even) {background-color: #f2f2f2;}; text-align: left; display: table; border-collapse: collapse; border-spacing: 5px; border-color: gray;">
 
-  <tr><td style="background-color: #965a11; color: white;">Primary Audience</td><td>System Architects and Data Professionals tasked with implementing Big Data, Machine Learning and AI solutions</td></tr>
-  <tr><td style="background-color: #965a11; color: white;">Secondary Audience</td><td>Security Architects, Developers, and Data Scientists</td></tr>
-  <tr><td style="background-color: #965a11; color: white;">Level</td><td>300</td></tr>
-  <tr><td style="background-color: #965a11; color: white;">Type</td><td>In-Person</td></tr>
-  <tr><td style="background-color: #965a11; color: white;">Length</td><td>8-9 hours</td></tr>
+  <tr><td style="background-color: Cornsilk; color: black; padding: 5px 0;">Primary Audience: </td><td style="background-color: Cornsilk; color: black; padding: 5px 0;"> System Architects and Data Professionals tasked with implementing Big Data, Machine Learning and AI solutions</td></tr>
+  <tr><td>Secondary Audience: </td><td> Security Architects, Developers, and Data Scientists</td></tr>
+  <tr><td style="background-color: Cornsilk; color: black; padding: 5px 0;">Level: </td><td style="background-color: Cornsilk; color: black; padding: 5px 0;"> 300</td></tr>
+  <tr><td>Type: </td><td> In-Person</td></tr>
+  <tr><td style="background-color: Cornsilk; color: black; padding: 5px 0;">Length: </td><td style="background-color: Cornsilk; color: black; padding: 5px 0;"> 8-9 hours</td></tr>
 
 </table>
 
@@ -199,16 +200,16 @@ This workshop uses Azure Data Studio, Microsoft Azure AKS, and SQL Server (2019 
 
 This is a modular course, and in each section, you'll learn concepts, technologies and processes to help you complete the solution.
 
-<table style="tr:nth-child(even) {background-color: #f2f2f2;}; text-align: left; display: table; border-collapse: collapse; border-spacing: 2px; border-color: gray;">
+<table style="tr:nth-child(even) {background-color: #f2f2f2;}; text-align: left; display: table; border-collapse: collapse; border-spacing: 5px; border-color: gray;">
 
-  <tr><td style="background-color: #965a11; color: white;">Module</td><td>Topics</td></tr>
+  <tr><td style="background-color: CornflowerBlue; color: black;"><b>Module</b></td><td style="background-color: CornflowerBlue; color: black;"><b>Topics</b></td></tr>
 
-  <tr><td><a href="ML%20Services%20for%20SQL%20Server/01%20Project%20Methodology%20and%20Data%20Science.md" target="_blank"> The Big Data Landscape</a></td><td>Overview of the course, problem space, solution options and architectures</td></tr>
-  <tr><td>Components</td><td>Abstraction levels, frameworks, architectures and components within SQL Server Big Data Clusters</td></tr>
-  <tr><td>Planning, Installation and Configuration</td><td>Mapping needs requirements to architecture design, constraints, </td></tr>
-  <tr><td>Processes and Procedures</td><td>TODO</td></tr>
-  <tr><td>Management and Monitoring</td><td>TODO</td></tr>
-  <tr><td>Security</td><td>TODO</td></tr>
+  <tr><td><a href="ML%20Services%20for%20SQL%20Server/01%20Project%20Methodology%20and%20Data%20Science.md" target="_blank">01 - The Big Data Landscape: </a></td><td> Overview of the course, problem space, solution options and architectures</td></tr>
+  <tr><td style="background-color: CornflowerBlue; color: white;">02 - Components: </td><td td style="background-color: CornflowerBlue; color: white;"> Abstraction levels, frameworks, architectures and components within SQL Server Big Data Clusters</td></tr>
+  <tr><td>03 - Planning, Installation<br> and Configuration: </td><td> Mapping needs requirements to architecture design, constraints, and diagrams</td></tr>
+  <tr><td style="background-color: CornflowerBlue; color: white;">04 - Operationalization: </td><td style="background-color: CornflowerBlue; color: white;"> Connecting applications to the solution, DDL, DML, DCL</td></tr>
+  <tr><td>05 - Management and <br> Monitoring: </td><td> Tools and processes to manage the Big Data Cluster</td></tr>
+  <tr><td style="background-color: CornflowerBlue; color: white;">06 - Security: </td><td style="background-color: CornflowerBlue; color: white;"> Access and Authentication to the various levels of the solution</td></tr>
 
 </table>
 

@@ -108,21 +108,43 @@ The concepts and skills taught in this workshop form the starting points for:
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h3>Solution Diagram</h3>
+<h3>Course Solution</h3>
 
-This solution uses an example of <TODO> , but it has many applications.
+This solution uses an example of a retail organization that has multiple data sources , but it has many applications in the industries listed above. It serves as an end-to-end scenariowhere you will learn the technologies and processes you can use to create multiple solutions. 
 
-In this diagram, the solution is <TODO>.
+[Wide World Importers](https://azure-scenarios-experience.azurewebsites.net/big-data.html) (WWI) is a traditional brick and mortar business with a long track record of success, generating profits through strong retail store sales of their unique offering of affordable products from around the world. They have a great training program for new employees, that focuses on connecting with their customers and providing great face-to-face customer service. This strong focus on customer relationships has helped set WWI apart from their competitors. 
 
-<img style="height: 300; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="./graphics/solutiondiagram.png">
+WWI has now added web and mobile commerce to their platform, which has generated a significant amount of additional data, and data formats. 
+
+<img style="height: 200; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://azure-scenarios-experience.azurewebsites.net/media/big-data-advanced-analytics/omni-channel.png">
+
+Now they want to expand their reach to customers around the world through web and mobile e-commerce. But they don't want to just simply make their inventory available online. They want to build upon their track record of strong customer connections, and engage with their customers through personalized, high-quality application experiences that incorporate data and intelligence.
+
+The technology team at WWI has recognized that moving to an omni-channel strategy has quickly outgrown their ability to handle data. They anticipate the following solutions needed to reach more customers and grow the business:
+
+ - Scale data systems to reach more consumers
+ - Unlock business insights from multiple sources of structured and unstructured data
+ - Apply real-time analytics for instant updates
+ - Infuse AI into apps to actively engage with customers
+
+Prior to expanding to our current omni-channel strategy, WWI had a simple Point of Sale (POS) application that handled customer orders at each retail store. The back-end was a series of service layers used to process orders and store them in a SQL database. We were equipped to handle this level of data.
+
+<img style="height: 200; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://azure-scenarios-experience.azurewebsites.net/media/big-data-advanced-analytics/previous-pos-architecture.png">
+
+As they added new e-commerce channels to expand the customer base, consumer demand also increased. This increased demand from more customers ordering products through more channels generated more data. Now WWI has new challenges to address:
+
+ - Increased consumer demand, leading to increased app data
+ - We are unable to determine business trends because of siloed insights
+ - We have a rising data management footprint, increasing cost and complexity
+ - New development challenges resulting from more deployment targets and duplicated code
+
+<img style="height: 200; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://azure-scenarios-experience.azurewebsites.net/media/big-data-advanced-analytics/current-pos-architecture.png">
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h3>Sample Solution Output</h3>
+<h3>Solution</h3>
 
- As an example, <TODO>:
-
-<img style="height: 300; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="./graphics/solutiondiagram.png">
+<img style="height: 200; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://docs.microsoft.com/en-us/sql/big-data-cluster/media/big-data-cluster-overview/ai-ml-spark.png">
 
 
 <p style="border-bottom: 1px solid lightgrey;"></p>

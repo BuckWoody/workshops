@@ -146,6 +146,11 @@ As they added new e-commerce channels to expand the customer base, consumer dema
 
 <img style="height: 200; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://docs.microsoft.com/en-us/sql/big-data-cluster/media/big-data-cluster-overview/ai-ml-spark.png">
 
+Your output will look similar to this Power BI Report: 
+
+<img style="height: 200; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://azure-scenarios-experience.azurewebsites.net/media/big-data-advanced-analytics/power-bi.png">
+
+
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 

@@ -20,7 +20,7 @@ This README.MD file explains how the course is laid out, what you will learn, an
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px; height: 35;" src="./graphics/brain.png"> Learning Objectives</h2>
+<h2><img style="float: left; margin: 0px 15px 15px 0px; height: 35;" src="./graphics/about.png"> Learning Objectives</h2>
 
 In this course you'll learn:
 
@@ -114,7 +114,7 @@ This solution uses an example of <TODO> , but it has many applications.
 
 In this diagram, the solution is <TODO>.
 
-<img style="height: 600; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="./graphics/solutiondiagram.png">
+<img style="height: 300; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="./graphics/solutiondiagram.png">
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 

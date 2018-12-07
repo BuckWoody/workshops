@@ -12,17 +12,13 @@ The "Microsoft SQL Server Big Data Clusters Architecture" course is taught using
 
 - **Microsoft Azure**: A free account. MSDN Account, your own account, or potentially one provided for you is acceptable as long as you can create about 60.00 (US) worth of assets
 
-- **SQL Server 2017 Developer Edition:** with ML Services installed and configured. *(Already installed on the DSVM)*
-
-- **Visual Studio Code**: You'll focus on using VS Code with Python. *(Already installed on the DSVM)*
-
-- **Azure Machine Learning Services Workspace**: You'll use this to set up the Azure ML components discussed in the course*
+TODO: Explain other things needed for the course
 
 - **Additional Components:** It's also a good idea to install a Markdown-File previewer in your browser of choice, since the instructions are all based on MD files. On the DSVM, open FireFox and install the *Markdown Viewer Webext* Extension. You can then simply drag the MD files into the browser for a clean course display. Alter Visual Studio Code to install Python, Markdown, Azure AI, SQL Server, and Anaconda extensions. These will be detailed below.
 
 *Note that all following activities must be completed prior to class - there will not be time to perform these operations during the course.*
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/cloud1.png"><b>Activity 1: Set up a Microsoft Azure Account</b></p>
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 1: Set up a Microsoft Azure Account</b></p>
 
 You have multiple options for setting up Microsoft Azure account to complete this course. You can use a free account, a Microsoft Developer Network (MSDN) account, a personal or corporate account, or in some cases a pass may be provided by the instructor. (Note: for most classes, the MSDN account is best)
 
@@ -52,46 +48,19 @@ Your course invitation may have instructed you that they will provide a Microsof
 
 **Unless you received explicit instructions in your course invitations, you much create either a free, MSDN or Personal account. You must have an account prior to the course.**
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/aml-logo.png"><b>Activity 2: Create a Data Science Virtual Machine</b></p>
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 2: Create a Data Science Virtual Machine</b></p>
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/checkbox.png"><b>Create the DSVM</b> - <a href="https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/provision-vm" target=_blank>Open this reference</a> and follow the instructions you see there. You will select a Windows 2016 Server DSVM, and a size of **DS4_v3**.
-- Start the Data Science Virtual Machine from the Portal and log in.
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/checkbox.png"><b>Install Workstation Components</b>
+ - TODO: Explain VM
+ - TODO: Explain Workstation
 
 **Note: Power off the Virtual Machine using the Azure Portal every time you are done with it. Turning off the VM using just the Windows power off in the VM only stops it running, but you are still charged for the VM if you do not stop it from the Portal. Stop the VM from the Portal unless you are actively using it.**
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/aml-logo.png"><b>Activity 3: Set up the Additional Requirements</b></p>
+<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/owl.png"><b>For Further Study</b></p>
+<ul>
+    <li><a href="https://docs.microsoft.com/en-us/sql/big-data-cluster/quickstart-big-data-cluster-deploy?view=sqlallproducts-allversions" target="_blank">Official Documentation for this section</a></li>
+</ul>
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/checkbox.png"><b>Update the DSVM</b> - Start your Data Science Virtual Machine (DSVM) and log in using the credentials you provided. Run Windows Update and update the system, and allow it to reboot if required.
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/geopin.png"><b >Next Steps</b></p>
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/checkbox.png"><b>Update VS Code</b> - On the DSVM, open Visual Studio Code. <a href="https://code.visualstudio.com/docs/setup/setup-overview#_update-cadence" target= _blank>Click this link to read about updating the product.</a> Allow the product to update before continuing to the next step.
-
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/checkbox.png"><b>Add Extensions to VS Code</b> - In Visual Studio Code, add the following extensions <a href="https://code.visualstudio.com/docs/setup/setup-overview#_extensions" target=_blank>(You can read more about how to add extensions here)</a>:
-
-- Anaconda Extension Pack
-- Azure Account
-- Azure CLI Tools
-- Excel Viewer
-- VS Code Jupyter Notebook Previewer
-- Markdown Preview Enhanced
-- Python
-- Python Extension Pack
-- SQL Server (mssql)
-- Visual Studio Code Tools for AI
-
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/aml-logo.png"><b>Activity 4: Set up an Azure Machine Learning account (free)</b></p>
-
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/checkbox.png"><b>Create a Azure Machine Learning Service Workspace</b> - <a href="https://docs.microsoft.com/en-us/azure/machine-learning/service/quickstart-get-started" target=_blank>Open this reference, watch the video, and follow the instructions to create a Workspace</a>. Folow the instructions on this page, but do not delete the resources - you will need them in class.
-
-<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/thinking.jpg"><b>For Further Study</b></p>
-
-<br>
-
-- [Microsoft Azure](https://docs.microsoft.com/en-us/learn/paths/azure-fundamentals/)
-- [Working with Jupyter Notebooks](https://notebooks.azure.com/Microsoft/libraries/samples)
-- [Python Introduction](https://notebooks.azure.com/Microsoft/libraries/samples/html/Introduction%20to%20Python.ipynb)
-- [Visual Studio Code](https://code.visualstudio.com/docs/getstarted/introvideos)
-- [Microsoft SQL Server](https://docs.microsoft.com/en-us/sql/relational-databases/database-engine-tutorials?view=sql-server-2017)
-
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/geopin.png"><b >Next Steps</b></p>
-
-Next, Continue to <a href="SQL2019BDC/00%20Pre-Requisites.md" target="_blank"><i> Pre-Requisites</i></a>.
+Next, Continue to <a href="01%20-%20The%20Big%20Data%20Landscape.md" target="_blank"><i> 01 - The Big Data Landscape</i></a>.

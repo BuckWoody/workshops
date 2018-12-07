@@ -69,4 +69,4 @@ To complete the project, document the steps, findings, and results. In the activ
 
 [Learn more about closing out a Data Science project here](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/lifecycle-acceptance)
 
-Congratulations! You have completed this course on Hybrid Machine Learning Services. You now have the tools, assets, and processes you need to extrapolate this information into other applications.
+Congratulations! You have completed this course on SQL Server Big Data Clusters Architecture. You now have the tools, assets, and processes you need to extrapolate this information into other applications.

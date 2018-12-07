@@ -6,7 +6,7 @@
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/textbubble.png"> <h2>SQL Server Big Data Clusters Components</h2>
+<img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/textbubble.png"> <h2>SQL Server Big Data Cluster Components</h2>
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
@@ -118,6 +118,6 @@ In the next Module, you will explore these options further. First, you will need
 
 - See https://www.georgetownlawtechreview.org/re-identification-of-anonymized-data/GLTR-04-2017/ for a discussion on statistical obfuscation dangers and methods
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/geopin.png"><b >Next Steps</b></p>
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/geopin.png"><b >Next Steps</b></p>
 
-Next, Continue to <a href="SQL2019BDC/00%20-%20Pre-Requisites.md" target="_blank"><i> Pre-Requisites</i></a>.
+Next, Continue to <a href="03%20-%20Planning,%20Installation%20and%20Configuration.md" target="_blank"><i> Planning, Installation and Configuration</i></a>.

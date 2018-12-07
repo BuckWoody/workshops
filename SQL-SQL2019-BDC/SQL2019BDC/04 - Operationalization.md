@@ -116,6 +116,6 @@ Your instructor will show you the general thoughts around these areas, and then 
 
  - Learn more about Feature Engineering and Modeling here: https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/lifecycle-modeling
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/geopin.png"><b >Next Steps</b></p>
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/geopin.png"><b >Next Steps</b></p>
 
-Next, Continue to <a href="SQL2019BDC/00%20-%20Pre-Requisites.md" target="_blank"><i> Pre-Requisites</i></a>.
+Next, Continue to <a href="05%20-%20Management%20and%20Monitoring.md" target="_blank"><i>  Management and Monitoring</i></a>.

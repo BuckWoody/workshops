@@ -224,12 +224,11 @@ This allows SQL Server professionals to work with and hybrid data in the way the
 
 - Find the section in the file marked `/* Activity: Enable external script execution in SQL Server */`, and run the code blocks (ending with **GO**) for each block in that section (*highlight and press* **CTRL-SHIFT-E**) from that section until `/* End Activity: Enable external script execution in SQL Server */`. Follow any instructions you see there.
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/thinking.jpg"><b>For Further Study</b></p>
+<p><img style="margin: 0px 15px 15px 0px;" src="../graphics/owl.png"><b>For Further Study</b></p>
+<ul>
+    <li><a href="https://docs.microsoft.com/en-us/sql/big-data-cluster/big-data-cluster-overview?view=sqlallproducts-allversions" target="_blank">Official Documentation for this section</a></li>
+</ul>
 
-<br>
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/geopin.png"><b >Next Steps</b></p>
 
-- Primary Documentation: https://docs.microsoft.com/en-us/sql/advanced-analytics/r/sql-server-r-services?view=sql-server-2017
-
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/geopin.png"><b >Next Steps</b></p>
-
-Next, Continue to <a href="SQL2019BDC/00%20-%20Pre-Requisites.md" target="_blank"><i> Pre-Requisites</i></a>.
+Next, Continue to <a href="02%20-%20SQL%20Server%20BDC%20Components.md" target="_blank"><i> SQL Server Big Data Cluster Components</i></a>.

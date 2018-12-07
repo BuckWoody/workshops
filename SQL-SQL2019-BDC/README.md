@@ -229,19 +229,19 @@ This is a modular course, and in each section, you'll learn concepts, technologi
 
 <table style="tr:nth-child(even) {background-color: #f2f2f2;}; text-align: left; display: table; border-collapse: collapse; border-spacing: 5px; border-color: gray;">
 
-  <tr><td style="background-color: CornflowerBlue; color: black;"><b>Module</b></td><td style="background-color: CornflowerBlue; color: black;"><b>Topics</b></td></tr>
+  <tr><td style="background-color: AliceBlue; color: black;"><b>Module</b></td><td style="background-color: AliceBlue; color: black;"><b>Topics</b></td></tr>
 
-  <tr><td><a href="ML%20Services%20for%20SQL%20Server/01%20Project%20Methodology%20and%20Data%20Science.md" target="_blank">01 - The Big Data Landscape </a></td><td> Overview of the course, problem space, solution options and architectures</td></tr>
-  <tr><td style="background-color: CornflowerBlue; color: white;">02 - SQL Server BDC Components </td><td td style="background-color: CornflowerBlue; color: white;"> Abstraction levels, frameworks, architectures and components within SQL Server Big Data Clusters</td></tr>
-  <tr><td>03 - Planning, Installation<br> and Configuration </td><td> Mapping the requirements to the architecture design, constraints, and diagrams</td></tr>
-  <tr><td style="background-color: CornflowerBlue; color: white;">04 - Operationalization </td><td style="background-color: CornflowerBlue; color: white;"> Connecting applications to the solution; DDL, DML, DCL</td></tr>
-  <tr><td>05 - Management and <br> Monitoring </td><td> Tools and processes to manage the Big Data Cluster</td></tr>
-  <tr><td style="background-color: CornflowerBlue; color: white;">06 - Security </td><td style="background-color: CornflowerBlue; color: white;"> Access and Authentication to the various levels of the solution</td></tr>
+  <tr><td><a href="01%20-%20The%20Big%20Data%20Landscape.md" target="_blank">01 - The Big Data Landscape </a></td><td> Overview of the course, problem space, solution options and architectures</td></tr>
+  <tr><td style="background-color: AliceBlue; color: black;"><a href="SQL2019BDC/02%20-%20SQL%20Server%20BDC%20Components.md" target="_blank">02 - SQL Server BDC Components</a> </td><td td style="background-color: AliceBlue; color: black;"> Abstraction levels, frameworks, architectures and components within SQL Server Big Data Clusters</td></tr>
+  <tr><td><a href="03%20-%20Planning,%20Installation%20and%20Configuration.md" target="_blank">03 - Planning, Installation<br> and Configuration</a> </td><td> Mapping the requirements to the architecture design, constraints, and diagrams</td></tr>
+  <tr><td style="background-color: AliceBlue; color: black;"><a href="04%20-%20Operationalization.md" target="_blank">04 - Operationalization</a> </td><td style="background-color: AliceBlue; color: black;"> Connecting applications to the solution; DDL, DML, DCL</td></tr>
+  <tr><td><a href="05%20-%20Management%20and%20Monitoring.md" target="_blank">05 - Management and <br> Monitoring</a> </td><td> Tools and processes to manage the Big Data Cluster</td></tr>
+  <tr><td style="background-color: AliceBlue; color: black;"><a href="06%20-%20Security.md" target="_blank">06 - Security</a> </td><td style="background-color: AliceBlue; color: black;"> Access and Authentication to the various levels of the solution</td></tr>
 
 </table>
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/geopin.png"><b >Next Steps</b></p>
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/geopin.png"><b>Next Steps</b></p>
 
 Next, Continue to <a href="SQL2019BDC/00%20-%20Pre-Requisites.md" target="_blank"><i> Pre-Requisites</i></a>.

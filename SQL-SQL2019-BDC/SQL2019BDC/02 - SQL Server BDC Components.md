@@ -1,10 +1,12 @@
-![](graphics/microsoftlogo.png)
+![](../graphics/microsoftlogo.png)
 
-# Hybrid Machine Learning
+# Workshop: Microsoft SQL Server Big Data Clusters Architecture
 
-#### <i>A Microsoft Course from the Learn AI team</i>
+#### <i>A Microsoft Course from the SQL Server team</i>
 
-## 2 - Business Understanding
+<p style="border-bottom: 1px solid lightgrey;"></p>
+
+<img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/textbubble.png"> <h2>SQL Server Big Data Clusters Components</h2>
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
@@ -116,4 +118,6 @@ In the next Module, you will explore these options further. First, you will need
 
 - See https://www.georgetownlawtechreview.org/re-identification-of-anonymized-data/GLTR-04-2017/ for a discussion on statistical obfuscation dangers and methods
 
-Next, you'll continue following the Team Data Science Process with <a href="03%20Data%20Acquisition%20and%20Understanding.md" target="_blank"><i>Phase 3 - Data Acquisition and Understanding</i></a>
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/geopin.png"><b >Next Steps</b></p>
+
+Next, Continue to <a href="SQL2019BDC/00%20-%20Pre-Requisites.md" target="_blank"><i> Pre-Requisites</i></a>.

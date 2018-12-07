@@ -1,10 +1,12 @@
-![](graphics/microsoftlogo.png)
+![](../graphics/microsoftlogo.png)
 
-# Hybrid Machine Learning
+# Workshop: Microsoft SQL Server Big Data Clusters Architecture
 
-#### <i>A Microsoft Course from the Learn AI team</i>
+#### <i>A Microsoft Course from the SQL Server team</i>
 
-## 6 - Customer Acceptance and Model Retraining
+<p style="border-bottom: 1px solid lightgrey;"></p>
+
+<img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/textbubble.png"> <h2>Security</h2>
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 

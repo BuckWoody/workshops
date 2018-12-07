@@ -1,10 +1,12 @@
-![](graphics/microsoftlogo.png)
+![](../graphics/microsoftlogo.png)
 
-# Hybrid Machine Learning
+# Workshop: Microsoft SQL Server Big Data Clusters Architecture
 
-#### <i>A Microsoft Course from the Learn AI team</i>
+#### <i>A Microsoft Course from the SQL Server team</i>
 
-## 1 - Project Methodology and Data Science
+<p style="border-bottom: 1px solid lightgrey;"></p>
+
+<img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/textbubble.png"> <h2>The Big Data Landscape</h2>
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
@@ -228,4 +230,6 @@ This allows SQL Server professionals to work with and hybrid data in the way the
 
 - Primary Documentation: https://docs.microsoft.com/en-us/sql/advanced-analytics/r/sql-server-r-services?view=sql-server-2017
 
-Next, you'll continue following the Team Data Science Process with <a href="02%20Business%20Understanding.md" target="_blank"><i>Phase 2 - Business Understanding</i></a>
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/geopin.png"><b >Next Steps</b></p>
+
+Next, Continue to <a href="SQL2019BDC/00%20-%20Pre-Requisites.md" target="_blank"><i> Pre-Requisites</i></a>.

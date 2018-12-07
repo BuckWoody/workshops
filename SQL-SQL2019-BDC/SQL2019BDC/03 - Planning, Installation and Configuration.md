@@ -1,10 +1,12 @@
-﻿![](graphics/microsoftlogo.png)
+﻿![](../graphics/microsoftlogo.png)
 
-# Hybrid Machine Learning
+# Workshop: Microsoft SQL Server Big Data Clusters Architecture
 
-#### <i>A Microsoft Course from the Learn AI team</i>
+#### <i>A Microsoft Course from the SQL Server team</i>
 
-## 3 - Data Acquisition and Understanding
+<p style="border-bottom: 1px solid lightgrey;"></p>
+
+<img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/textbubble.png"> <h2>Planning, Installation and Configuration</h2>
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
@@ -110,4 +112,6 @@ In this scenario, you'll create the model, and then deploy the output to SQL Ser
 
 - Data Acquisition and Understand Reference: https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/lifecycle-data
 
-Next, you'll continue following the Team Data Science Process with <a href="04%20Modeling.md" target="_blank"><i>Phase 4 - Modeling</i></a>
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/geopin.png"><b >Next Steps</b></p>
+
+Next, Continue to <a href="SQL2019BDC/00%20-%20Pre-Requisites.md" target="_blank"><i> Pre-Requisites</i></a>.

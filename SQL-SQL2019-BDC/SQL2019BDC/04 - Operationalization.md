@@ -1,10 +1,12 @@
-![](graphics/microsoftlogo.png)
+![](../graphics/microsoftlogo.png)
 
-# Hybrid Machine Learning
+# Workshop: Microsoft SQL Server Big Data Clusters Architecture
 
-#### <i>A Microsoft Course from the Learn AI team</i>
+#### <i>A Microsoft Course from the SQL Server team</i>
 
-## 4 - Modeling
+<p style="border-bottom: 1px solid lightgrey;"></p>
+
+<img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/textbubble.png"> <h2>Operationalization</h2>
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
@@ -114,4 +116,6 @@ Your instructor will show you the general thoughts around these areas, and then 
 
  - Learn more about Feature Engineering and Modeling here: https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/lifecycle-modeling
 
-Next, you'll continue following the Team Data Science Process with <a href="05%20Deployment.md" target="_blank"><i>Phase 5 - Deployment</i></a>
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/geopin.png"><b >Next Steps</b></p>
+
+Next, Continue to <a href="SQL2019BDC/00%20-%20Pre-Requisites.md" target="_blank"><i> Pre-Requisites</i></a>.

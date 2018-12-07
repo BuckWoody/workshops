@@ -1,10 +1,12 @@
-![](graphics/microsoftlogo.png)
+![](../graphics/microsoftlogo.png)
 
-# Hybrid Machine Learning
+# Workshop: Microsoft SQL Server Big Data Clusters Architecture
 
-#### <i>A Microsoft Course from the Learn AI team</i>
+#### <i>A Microsoft Course from the SQL Server team</i>
 
-## 5 - Deployment
+<p style="border-bottom: 1px solid lightgrey;"></p>
+
+<img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/textbubble.png"> <h2>Management and Monitoring</h2>
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
@@ -97,4 +99,6 @@ In this exercise you're simply going to call the Stored Procedure you just creat
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/thinking.jpg"><b>For Further Study</b></p>
  - Another example of using a Stored Procedure to predict data using R and SQL Server: https://docs.microsoft.com/en-us/sql/advanced-analytics/tutorials/rtsql-create-a-predictive-model-r?view=sql-server-2017
 
-Next, you'll continue following the Team Data Science Process with <a href="06%20Customer%20Acceptance%20and%20Retraining.md" target="_blank"><i>Phase 6 - Customer Acceptance and Model Retraining</i></a>
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/geopin.png"><b >Next Steps</b></p>
+
+Next, Continue to <a href="SQL2019BDC/00%20-%20Pre-Requisites.md" target="_blank"><i> Pre-Requisites</i></a>.

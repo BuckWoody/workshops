@@ -6,7 +6,7 @@
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px; height: 20;" src="./graphics/thinking.jpg"> About this Course</h2>
+<img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/textbubble.png"> <h2>About this Course</h2>
 
 Welcome to this Microsoft Solutions course on *Microsoft SQL Server Big Data Clusters Architecture*. In this course, you'll learn how SQL Server big data clusters implements machine learning, and how to select and plan for the proper architecture to enable machine learning to train your models using Python, R, Java or SparkML to operationalize these models, and how to deploy your intelligent apps side-by-side with their data.
 
@@ -20,7 +20,7 @@ This README.MD file explains how the course is laid out, what you will learn, an
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px; height: 35;" src="./graphics/about.png"> Learning Objectives</h2>
+<img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/checkmark.png"> <h3>Learning Objectives</h3>
 
 In this course you'll learn:
 
@@ -40,7 +40,7 @@ In this course you'll learn:
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h3>Business Applications of this course</h3>
+<img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/building1.png"> <h2>Business Applications of this course</h2>
 
 Businesses require near real-time insights from ever-larger sets of data. Large-scale data ingestion requires scale-out storage and processing in ways that allow fast response times. In addition to simply querying this data, organizations want full analysis and even predictive capabilities over their data. A few industry examples of big data processing are:
 
@@ -108,7 +108,7 @@ The concepts and skills taught in this workshop form the starting points for:
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h3>Course Solution</h3>
+<img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/clipboardcheck.png"><h3>Course Solution</h3>
 
 This solution uses an example of a retail organization that has multiple data sources , but it has many applications in the industries listed above. It serves as an end-to-end scenariowhere you will learn the technologies and processes you can use to create multiple solutions. 
 
@@ -154,7 +154,7 @@ Your output will look similar to this Power BI Report:
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px; height: 20;" src="./graphics/keyboard.jpg"> Technologies</h2>
+<img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/listcheck.png"> <h2>Technologies</h2>
 
 This solution includes the following technologies - although you are not limited to these, they form the basis of the course. At the end of the course you will learn how to extrapolate these components into other solutions. You will cover these at an overview level, with references to much deeper training provided.
 
@@ -181,7 +181,7 @@ This solution includes the following technologies - although you are not limited
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px; height: 30;" src="./graphics/pin.jpg"> Before Taking this Course</h2>
+<img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/owl.png"> <h2>Before Taking this Course</h2>
 
 You'll need a local system that you are able to install software on. The workshop demonstrations use Microsoft Windows as an operating system and all examples use Windows for the course. Optionally, you can use a Microsoft Azure Virtual Machine (VM) to install the software on and work with the solution.
 
@@ -195,13 +195,13 @@ If you are new to these, here are a few references you can complete prior to cla
 -  [Microsoft Azure](https://docs.microsoft.com/en-us/learn/paths/azure-fundamentals/)
 
 
-<h3>Setup</h3>
+<img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/bulletlist.png"> <h3>Setup</h3>
 
 <a href="ML%20Services%20for%20SQL%20Server/00%20Pre-Requisites.md" target="_blank">A full pre-requisites document is located here</a>. These instructions should be completed before the course starts, since you will not have time to cover these in class. <i>Remember to turn off any Virtual Machines from the Azure Portal when not taking the class so that you do incur charges (shutting down the machine in the VM itself is not sufficient)</i>.
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px; height: 15;" src="./graphics/check.png"> Course Details</h2>
+<img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/education1.png"> <h2>Course Details</h2>
 
 This workshop uses Azure Data Studio, Microsoft Azure AKS, and SQL Server (2019 and higher) with a focus on architecture and implementation.
 
@@ -217,13 +217,13 @@ This workshop uses Azure Data Studio, Microsoft Azure AKS, and SQL Server (2019 
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px; height: 20;" src="./graphics/files.jpg"> Related Courses</h2>
+<img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/pinmap.png"> <h2>Related Courses</h2>
 
-[Technical guide to the Cortana Intelligence Solution Template for predictive maintenance in aerospace and other businesses](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/cortana-analytics-technical-guide-predictive-maintenance)
+ - [Technical guide to the Cortana Intelligence Solution Template for predictive maintenance in aerospace and other businesses](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/cortana-analytics-technical-guide-predictive-maintenance)
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/cortanalogo.png"> Course Outline</h2>
+<img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/bookpencil.png"> <h2>Course Modules</h2>
 
 This is a modular course, and in each section, you'll learn concepts, technologies and processes to help you complete the solution.
 
@@ -231,17 +231,17 @@ This is a modular course, and in each section, you'll learn concepts, technologi
 
   <tr><td style="background-color: CornflowerBlue; color: black;"><b>Module</b></td><td style="background-color: CornflowerBlue; color: black;"><b>Topics</b></td></tr>
 
-  <tr><td><a href="ML%20Services%20for%20SQL%20Server/01%20Project%20Methodology%20and%20Data%20Science.md" target="_blank">01 - The Big Data Landscape: </a></td><td> Overview of the course, problem space, solution options and architectures</td></tr>
-  <tr><td style="background-color: CornflowerBlue; color: white;">02 - Components: </td><td td style="background-color: CornflowerBlue; color: white;"> Abstraction levels, frameworks, architectures and components within SQL Server Big Data Clusters</td></tr>
-  <tr><td>03 - Planning, Installation<br> and Configuration: </td><td> Mapping needs requirements to architecture design, constraints, and diagrams</td></tr>
-  <tr><td style="background-color: CornflowerBlue; color: white;">04 - Operationalization: </td><td style="background-color: CornflowerBlue; color: white;"> Connecting applications to the solution, DDL, DML, DCL</td></tr>
-  <tr><td>05 - Management and <br> Monitoring: </td><td> Tools and processes to manage the Big Data Cluster</td></tr>
-  <tr><td style="background-color: CornflowerBlue; color: white;">06 - Security: </td><td style="background-color: CornflowerBlue; color: white;"> Access and Authentication to the various levels of the solution</td></tr>
+  <tr><td><a href="ML%20Services%20for%20SQL%20Server/01%20Project%20Methodology%20and%20Data%20Science.md" target="_blank">01 - The Big Data Landscape </a></td><td> Overview of the course, problem space, solution options and architectures</td></tr>
+  <tr><td style="background-color: CornflowerBlue; color: white;">02 - SQL Server BDC Components </td><td td style="background-color: CornflowerBlue; color: white;"> Abstraction levels, frameworks, architectures and components within SQL Server Big Data Clusters</td></tr>
+  <tr><td>03 - Planning, Installation<br> and Configuration </td><td> Mapping the requirements to the architecture design, constraints, and diagrams</td></tr>
+  <tr><td style="background-color: CornflowerBlue; color: white;">04 - Operationalization </td><td style="background-color: CornflowerBlue; color: white;"> Connecting applications to the solution; DDL, DML, DCL</td></tr>
+  <tr><td>05 - Management and <br> Monitoring </td><td> Tools and processes to manage the Big Data Cluster</td></tr>
+  <tr><td style="background-color: CornflowerBlue; color: white;">06 - Security </td><td style="background-color: CornflowerBlue; color: white;"> Access and Authentication to the various levels of the solution</td></tr>
 
 </table>
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/thinking.jpg"><b >Next Steps</b></p>
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/geopin.png"><b >Next Steps</b></p>
 
-Next, Continue to <a href="ML%20Services%20for%20SQL%20Server/00%20Pre-Requisites.md" target="_blank"><i> Pre-Requisites</i></a>.
+Next, Continue to <a href="SQL2019BDC/00%20-%20Pre-Requisites.md" target="_blank"><i> Pre-Requisites</i></a>.

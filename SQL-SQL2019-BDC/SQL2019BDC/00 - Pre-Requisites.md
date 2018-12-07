@@ -51,39 +51,113 @@ Your course invitation may have instructed you that they will provide a Microsof
 **Unless you received explicit instructions in your course invitations, you much create either a free, MSDN or Personal account. You must have an account prior to the course.**
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 2: Prepare Your Workstation</b></p>
-
 <br>
+The instructions that follow are the same for either a "base metal" workstation or laptop, or a Virtual Machine. It's best to have at least 4MB or RAM on the management system, and these instructions assume that you are not planning to run the database server or any Containers on the workstation. It's also assumed that you are using a current version of Windows, either desktop or server.
+
+You can copy and paste all of the commands that follow in a PowerShell window that you run as Admistrator. 
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/checkbox.png">Updates<p>
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/checkbox.png">Chocklaty</p>
+First, ensure all of your updates are current. You can use the following commands to do that in an Administrator PowerShell session:
+
+<pre>
+$host.UI.RawUI.WindowTitle = "Standard Install for Windows. Classroom or test system only - use at your own risk!"
+[console]::BackgroundColor = "Black"
+Set-ExecutionPolicy RemoteSigned
+pause
+
+[console]::ForegroundColor = "Red"
+write-host "Update Windows"
+Install-Module PSWindowsUpdate
+Import-Module PSWindowsUpdate
+Get-WindowsUpdate
+Install-WindowsUpdate
+pause
+</pre>
+
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/checkbox.png">Install Chocolaty Windows package Manager</p>
+
+Next, install the Chocolaty Windows Package manager to aid in command-line installations:
+
+<pre>
+[console]::ForegroundColor = "Blue"
+write-host "Install Chocolaty" 
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+choco feature enable -n allowGlobalConfirmation
+pause
+
+</pre>
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/checkbox.png">Environment Variables</p>
 
-TODO: Explain install and configuration
+Your environment variables control how the cluster will be built. 
+<p><a href="https://docs.microsoft.com/en-us/sql/big-data-cluster/quickstart-big-data-cluster-deploy?view=sqlallproducts-allversions#define-environment-variables" target="_blank">Refer to this documentation for both the latest statements to run, and for what they need to be set to.</a></p>
+
+(Note that in production, you'll set these environment variables permanently using the Control Panel or by adding them with a Registry command)
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 3: Install Azure CLI</b></p>
 
-TODO: Explain install and configuration
+The Azure Command Line Utility is used to set up and control Azure resources. Run the following commands in your elevated PowerShell window:
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 4: Install Python 3 and pip3</b></p>
+<pre>
+[console]::ForegroundColor = "Green"
+write-host "Install Azure CLI"
+start "https://aka.ms/installazurecliwindows"
+pause 
+</pre>
 
-TODO: Explain install and configuration
+You'll need to click the MSI file once it downloads, take all defaults. 
+
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 4: Install Python 3, pip3 and git</b></p>
+
+While `git` has not been mentioned as a requirement for SQL Server, it's used for the course. 
+
+<pre>
+[console]::ForegroundColor = "DarkCyan"
+write-host "Install Python 3"
+choco install python3 
+pause
+
+
+[console]::ForegroundColor = "Red"
+write-host "Install git"
+choco install git
+pause 
+
+</pre>
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 5: Install kubctl</b></p>
 
 TODO: Explain install and configuration
 
+[console]::ForegroundColor = "Cyan"
+write-host "Install kubectl"
+choco install kubernetes-cli 
+pause
+
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 6: Install mssqlctl</b></p>
 
 TODO: Explain install and configuration
 
+write-host "Install mssqlctl"
+C:\python37\python.exe -m pip install --upgrade pip
+C:\Python37\Scripts\pip3 install --extra-index-url https://private-repo.microsoft.com/python/ctp-2.1 mssqlctl 
+pause
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 7: Install Azure Data Studio and Extensions</b></p>
 
 TODO: Explain install and configuration
 
-
+[console]::ForegroundColor = "DarkRed"
+write-host "Install Azure Data Studio" 
+start "https://go.microsoft.com/fwlink/?linkid=2038320"
+pause
+		
+[console]::ForegroundColor = "Red"
+write-host "Re-Update Windows"
+Get-WindowsUpdate
+Install-WindowsUpdate
+pause
 
 **Note: Power off the Virtual Machine using the Azure Portal every time you are done with it. Turning off the VM using just the Windows power off in the VM only stops it running, but you are still charged for the VM if you do not stop it from the Portal. Stop the VM from the Portal unless you are actively using it.**
 

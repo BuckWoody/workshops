@@ -8,15 +8,17 @@
 
 <img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/textbubble.png"> <h2>00 Pre-Requisites</h2>
 
-The "Microsoft SQL Server Big Data Clusters Architecture" course is taught using the following components, which you will install and configure in the sections that follow:
+The "Microsoft SQL Server Big Data Clusters Architecture" course is taught using the following components, which you will install and configure in the sections that follow. For this course, you will use Microsoft Windows as the base workstation, altough Apple and Linux operating systems can be used in production:
 
-- **Microsoft Azure**: A free account. MSDN Account, your own account, or potentially one provided for you is acceptable as long as you can create about 60.00 (US) worth of assets
+- **Microsoft Azure**: This workshop uses the Microsoft Azure platform to host the Kubernetes cluster (using the Azure Kubernetes Service), and optionally you can deploy a system there to act as a workstation. You can use a free Azure account, an MSDN Account, your own account, or potentially one provided for you, as long as you can create about $80.00 (U.S.) worth of assets.
+- **Azure Command Line Interface**: The Azure CLI allows you to work from the command line on multiple platforms to interact with your Azure subscription, and also has control statements for AKS.
+- **Python (3)**: Python version 3.5 is used by the SQL Server programs to deploy and manage a SQL Server Big Data Cluster.
+- **The pip3 Package**: The Python package manager *pip3* is used to install various SQL Server BDC deployment and configuraton tools. 
+- **The kubectl program**: The *kubectl* program is the commnad-line control feature for Kubernetes.
+- **The mssqlctl program**: The *mssqlctl* program is the deployment and configuration tool for SQL Server Big Data Clusters.
+- **Azure Data Studio**: The *Azure Data Studio*, along with various Extensions, is used for both the query and management of SQL Server BDC. In addition, you will use this tool to participate in the workshop.
 
-TODO: Explain other things needed for the course
-
-- **Additional Components:** It's also a good idea to install a Markdown-File previewer in your browser of choice, since the instructions are all based on MD files. On the DSVM, open FireFox and install the *Markdown Viewer Webext* Extension. You can then simply drag the MD files into the browser for a clean course display. Alter Visual Studio Code to install Python, Markdown, Azure AI, SQL Server, and Anaconda extensions. These will be detailed below.
-
-*Note that all following activities must be completed prior to class - there will not be time to perform these operations during the course.*
+*Note that all following activities must be completed prior to class - there will not be time to perform these operations during the workshop.*
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 1: Set up a Microsoft Azure Account</b></p>
 
@@ -48,11 +50,40 @@ Your course invitation may have instructed you that they will provide a Microsof
 
 **Unless you received explicit instructions in your course invitations, you much create either a free, MSDN or Personal account. You must have an account prior to the course.**
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 2: Create a Data Science Virtual Machine</b></p>
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 2: Prepare Your Workstation</b></p>
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/checkbox.png"><b>Install Workstation Components</b>
- - TODO: Explain VM
- - TODO: Explain Workstation
+<br>
+
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/checkbox.png">Updates<p>
+
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/checkbox.png">Chocklaty</p>
+
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/checkbox.png">Environment Variables</p>
+
+TODO: Explain install and configuration
+
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 3: Install Azure CLI</b></p>
+
+TODO: Explain install and configuration
+
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 4: Install Python 3 and pip3</b></p>
+
+TODO: Explain install and configuration
+
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 5: Install kubctl</b></p>
+
+TODO: Explain install and configuration
+
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 6: Install mssqlctl</b></p>
+
+TODO: Explain install and configuration
+
+
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 7: Install Azure Data Studio and Extensions</b></p>
+
+TODO: Explain install and configuration
+
+
 
 **Note: Power off the Virtual Machine using the Azure Portal every time you are done with it. Turning off the VM using just the Windows power off in the VM only stops it running, but you are still charged for the VM if you do not stop it from the Portal. Stop the VM from the Portal unless you are actively using it.**
 

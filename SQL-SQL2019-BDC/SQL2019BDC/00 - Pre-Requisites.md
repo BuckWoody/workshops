@@ -11,6 +11,7 @@
 The "Microsoft SQL Server Big Data Clusters Architecture" course is taught using the following components, which you will install and configure in the sections that follow. For this course, you will use Microsoft Windows as the base workstation, altough Apple and Linux operating systems can be used in production:
 
 - **Microsoft Azure**: This workshop uses the Microsoft Azure platform to host the Kubernetes cluster (using the Azure Kubernetes Service), and optionally you can deploy a system there to act as a workstation. You can use a free Azure account, an MSDN Account, your own account, or potentially one provided for you, as long as you can create about $80.00 (U.S.) worth of assets.
+- **SQL Server Big Data Cluster credentials** - As of this writing, you must have an invitation code to install and configure SQL Server Big Data Clusters.
 - **Azure Command Line Interface**: The Azure CLI allows you to work from the command line on multiple platforms to interact with your Azure subscription, and also has control statements for AKS.
 - **Python (3)**: Python version 3.5 is used by the SQL Server programs to deploy and manage a SQL Server Big Data Cluster.
 - **The pip3 Package**: The Python package manager *pip3* is used to install various SQL Server BDC deployment and configuraton tools. 
@@ -49,6 +50,11 @@ You can also use your own account or one provided to you by your organization, b
 Your course invitation may have instructed you that they will provide a Microsoft Azure account for you to use. If so, you will receive instructions that it will be provided.
 
 **Unless you received explicit instructions in your course invitations, you much create either a free, MSDN or Personal account. You must have an account prior to the course.**
+
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 2: Request Access Credentials to SQL Server 2019 BDC features</b></p>
+<br>
+TODO: Get instructions from website
+
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 2: Prepare Your Workstation</b></p>
 <br>

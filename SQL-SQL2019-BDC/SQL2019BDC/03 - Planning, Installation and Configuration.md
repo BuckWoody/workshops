@@ -26,7 +26,7 @@ You'll cover these topics in the course:
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">1.1 TODO: Topic Name</h2>
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.1 TODO: Planning</h2>
 
 TODO: Topic Description
 
@@ -44,7 +44,7 @@ TODO: Enter activity steps description with checkbox
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">1.2 TODO: Topic Name</h2>
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.2 TODO: Kuberenetes Installation and Configuration</h2>
 
 TODO: Topic Description
 
@@ -59,6 +59,14 @@ TODO: Enter activity description with checkbox
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
 
 TODO: Enter activity steps description with checkbox
+
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.3 TODO: SQL Server Clusters Deployment and Configuration</h2>
+
+TODO: Topic Description
+
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">3.4 TODO: Management Tools Installation and Configuration</h2>
+
+TODO: Topic Description
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 

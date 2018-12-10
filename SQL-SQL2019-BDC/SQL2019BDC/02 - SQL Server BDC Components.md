@@ -26,7 +26,7 @@ You'll cover these topics in the course:
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">1.1 TODO: Topic Name</h2>
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.1 TODO: Containers (Docker)</h2>
 
 TODO: Topic Description
 
@@ -44,7 +44,7 @@ TODO: Enter activity steps description with checkbox
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">1.2 TODO: Topic Name</h2>
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.2 TODO: Container Orchestration and Management (Kubernetes)</h2>
 
 TODO: Topic Description
 
@@ -59,6 +59,22 @@ TODO: Enter activity description with checkbox
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/checkmark.png"><b>Steps</b></p>
 
 TODO: Enter activity steps description with checkbox
+
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.3 TODO: Scale-out Storage (HDSF)</h2>
+
+TODO: Topic Description
+
+
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.4 TODO: Scale-out Processing (Spark)</h2>
+
+TODO: Topic Description
+
+
+https://www.oreilly.com/library/view/learning-spark/9781449359034/ch01.html 
+
+<h2><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/pencil2.png">2.5 TODO: Unified System (SQL Server BDC)</h2>
+
+TODO: Topic Description
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 

@@ -142,34 +142,44 @@ pause
 
 The `kubectl` program is used to deploy, configure and manage Kubernetes Clusters. It is used in several parts of the Big Data Clusters program.
 
+<pre>
 [console]::ForegroundColor = "Cyan"
 write-host "Install kubectl"
 choco install kubernetes-cli 
 pause
+</pre>
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 6: Install mssqlctl</b></p>
 
 the `mssqlctl` program then deploys the SQL Server Big Data Cluster environment onto Kubernetes. 
 
+<pre>
 write-host "Install mssqlctl"
 C:\python37\python.exe -m pip install --upgrade pip
 C:\Python37\Scripts\pip3 install --extra-index-url https://private-repo.microsoft.com/python/ctp-2.1 mssqlctl 
 pause
+</pre>
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 7: Install Azure Data Studio and Extensions</b></p>
 
 The primary management tool for working with SQL Server Big Data Clusters is Azure Data Studio. You will also use this tool in your course.
 
+<pre>
 [console]::ForegroundColor = "DarkRed"
 write-host "Install Azure Data Studio" 
 start "https://go.microsoft.com/fwlink/?linkid=2038320"
 pause
-		
+</pre>
+
+Once again, download the MSI and run it from there. It's always a good idea after this many installations to run Windows Update again:
+
+<pre>
 [console]::ForegroundColor = "Red"
 write-host "Re-Update Windows"
 Get-WindowsUpdate
 Install-WindowsUpdate
 pause
+</pre>
 
 **Note: If you are using a Virtual Machine in Azure, power off the Virtual Machine using the Azure Portal every time you are done with it. Turning off the VM using just the Windows power off in the VM only stops it running, but you are still charged for the VM if you do not stop it from the Portal. Stop the VM from the Portal unless you are actively using it.**
 

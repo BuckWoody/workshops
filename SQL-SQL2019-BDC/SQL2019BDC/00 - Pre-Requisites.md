@@ -53,7 +53,13 @@ Your course invitation may have instructed you that they will provide a Microsof
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 2: Request Access Credentials to SQL Server 2019 BDC features</b></p>
 <br>
-TODO: Get instructions from website
+As of this writing, the SQL Server Big Data Cluster feature is enabled for preview customers. You can request access at this site:
+
+https://aka.ms/eapsignup 
+
+When you access that site, put the words **Purpose: Workshop** in the *Please describe the specific application or workload that you will be testing with SQL Server 2019?* box. You will be automatically approved. For the *Platform*, select **Azure Kubernetes Service (AKS)**.
+
+You will use these credentials in a subsequent step. It can take up to a week to receive your code. 
 
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 2: Prepare Your Workstation</b></p>
@@ -97,7 +103,7 @@ pause
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/checkbox.png">Environment Variables</p>
 
 Your environment variables control how the cluster will be built. 
-<p><a href="https://docs.microsoft.com/en-us/sql/big-data-cluster/quickstart-big-data-cluster-deploy?view=sqlallproducts-allversions#define-environment-variables" target="_blank">Refer to this documentation for both the latest statements to run, and for what they need to be set to.</a></p>
+<p><a href="https://docs.microsoft.com/en-us/sql/big-data-cluster/quickstart-big-data-cluster-deploy?view=sqlallproducts-allversions#define-environment-variables" target="_blank">Refer to this documentation for both the latest statements to run, and for what they need to be set to.</a></p> The variables for name, password and e-mail for the Big Data Cluster is provided to you when you request access to the Early Adopter program. 
 
 (Note that in production, you'll set these environment variables permanently using the Control Panel or by adding them with a Registry command)
 
@@ -132,9 +138,9 @@ pause
 
 </pre>
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 5: Install kubctl</b></p>
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 5: Install kubectl</b></p>
 
-TODO: Explain install and configuration
+The `kubectl` program is used to deploy, configure and manage Kubernetes Clusters. It is used in several parts of the Big Data Clusters program.
 
 [console]::ForegroundColor = "Cyan"
 write-host "Install kubectl"
@@ -143,7 +149,7 @@ pause
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 6: Install mssqlctl</b></p>
 
-TODO: Explain install and configuration
+the `mssqlctl` program then deploys the SQL Server Big Data Cluster environment onto Kubernetes. 
 
 write-host "Install mssqlctl"
 C:\python37\python.exe -m pip install --upgrade pip
@@ -152,7 +158,7 @@ pause
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 7: Install Azure Data Studio and Extensions</b></p>
 
-TODO: Explain install and configuration
+The primary management tool for working with SQL Server Big Data Clusters is Azure Data Studio. You will also use this tool in your course.
 
 [console]::ForegroundColor = "DarkRed"
 write-host "Install Azure Data Studio" 
@@ -165,7 +171,7 @@ Get-WindowsUpdate
 Install-WindowsUpdate
 pause
 
-**Note: Power off the Virtual Machine using the Azure Portal every time you are done with it. Turning off the VM using just the Windows power off in the VM only stops it running, but you are still charged for the VM if you do not stop it from the Portal. Stop the VM from the Portal unless you are actively using it.**
+**Note: If you are using a Virtual Machine in Azure, power off the Virtual Machine using the Azure Portal every time you are done with it. Turning off the VM using just the Windows power off in the VM only stops it running, but you are still charged for the VM if you do not stop it from the Portal. Stop the VM from the Portal unless you are actively using it.**
 
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/owl.png"><b>For Further Study</b></p>
 <ul>

@@ -8,7 +8,11 @@
 
 <img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/textbubble.png"> <h2>00 Pre-Requisites</h2>
 
-The "Microsoft SQL Server Big Data Clusters Architecture" course is taught using the following components, which you will install and configure in the sections that follow. For this course, you will use Microsoft Windows as the base workstation, altough Apple and Linux operating systems can be used in production:
+The "Microsoft SQL Server Big Data Clusters Architecture" course is taught using the following components, which you will install and configure in the sections that follow. 
+
+*(Note: Participation is optional - we will be working through the exercises together, but if you cannot install any software or don't have an Azure account, the instructor will work through each exercise in the workshop. You will also have full access to these materials so that you can work through them later when you have more time.)*
+
+For this course, you will use Microsoft Windows as the base workstation, altough Apple and Linux operating systems can be used in production:
 
 - **Microsoft Azure**: This workshop uses the Microsoft Azure platform to host the Kubernetes cluster (using the Azure Kubernetes Service), and optionally you can deploy a system there to act as a workstation. You can use a free Azure account, an MSDN Account, your own account, or potentially one provided for you, as long as you can create about $80.00 (U.S.) worth of assets.
 - **SQL Server Big Data Cluster credentials** - As of this writing, you must have an invitation code to install and configure SQL Server Big Data Clusters.

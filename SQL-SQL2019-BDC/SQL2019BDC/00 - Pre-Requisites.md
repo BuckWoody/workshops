@@ -12,7 +12,9 @@ The "Microsoft SQL Server Big Data Clusters Architecture" workshop is taught usi
 
 *(Note: Due to the nature of working with large-scale systems, it may not be possible for you to set up everything you need to perform each lab exercise.  Participation in each Activity is optional - we will be working through the exercises together, but if you cannot install any software or don't have an Azure account, the instructor will work through each exercise in the workshop. You will also have full access to these materials so that you can work through them later when you have more time and resources.)*
 
-For this workshop, you will use Microsoft Windows as the base workstation, altough Apple and Linux operating systems can be used in production:
+For this workshop, you will use Microsoft Windows as the base workstation, altough Apple and Linux operating systems can be used in production. You can <a href="https://developer.microsoft.com/en-us/windows/downloads/virtual-machines" target="_blank">download a Windows 10 Workstation Image for VirtualBox, Hyper-V, VMWare, or Parallels for free here</a>. 
+
+The other requirements are:
 
 - **Microsoft Azure**: This workshop uses the Microsoft Azure platform to host the Kubernetes cluster (using the Azure Kubernetes Service), and optionally you can deploy a system there to act as a workstation. You can use a free Azure account, an MSDN Account, your own account, or potentially one provided for you, as long as you can create about $80.00 (U.S.) worth of assets.
 - **SQL Server Big Data Cluster credentials** - As of this writing, you must have an invitation code to install and configure SQL Server Big Data Clusters.

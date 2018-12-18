@@ -2,17 +2,17 @@
 
 # Workshop: Microsoft SQL Server Big Data Clusters Architecture
 
-#### <i>A Microsoft Course from the SQL Server team</i>
+#### <i>A Microsoft workshop from the SQL Server team</i>
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
 <img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/textbubble.png"> <h2>00 Pre-Requisites</h2>
 
-The "Microsoft SQL Server Big Data Clusters Architecture" course is taught using the following components, which you will install and configure in the sections that follow. 
+The "Microsoft SQL Server Big Data Clusters Architecture" workshop is taught using the following components, which you will install and configure in the sections that follow. 
 
-*(Note: Participation is optional - we will be working through the exercises together, but if you cannot install any software or don't have an Azure account, the instructor will work through each exercise in the workshop. You will also have full access to these materials so that you can work through them later when you have more time.)*
+*(Note: Due to the nature of working with large-scale systems, it may not be possible for you to set up everything you need to perform each lab exercise.  Participation in each Activity is optional - we will be working through the exercises together, but if you cannot install any software or don't have an Azure account, the instructor will work through each exercise in the workshop. You will also have full access to these materials so that you can work through them later when you have more time and resources.)*
 
-For this course, you will use Microsoft Windows as the base workstation, altough Apple and Linux operating systems can be used in production:
+For this workshop, you will use Microsoft Windows as the base workstation, altough Apple and Linux operating systems can be used in production:
 
 - **Microsoft Azure**: This workshop uses the Microsoft Azure platform to host the Kubernetes cluster (using the Azure Kubernetes Service), and optionally you can deploy a system there to act as a workstation. You can use a free Azure account, an MSDN Account, your own account, or potentially one provided for you, as long as you can create about $80.00 (U.S.) worth of assets.
 - **SQL Server Big Data Cluster credentials** - As of this writing, you must have an invitation code to install and configure SQL Server Big Data Clusters.
@@ -27,9 +27,9 @@ For this course, you will use Microsoft Windows as the base workstation, altough
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 1: Set up a Microsoft Azure Account</b></p>
 
-You have multiple options for setting up Microsoft Azure account to complete this course. You can use a free account, a Microsoft Developer Network (MSDN) account, a personal or corporate account, or in some cases a pass may be provided by the instructor. (Note: for most classes, the MSDN account is best)
+You have multiple options for setting up Microsoft Azure account to complete this workshop. You can use a free account, a Microsoft Developer Network (MSDN) account, a personal or corporate account, or in some cases a pass may be provided by the instructor. (Note: for most classes, the MSDN account is best)
 
-**Unless you are explicitly told you will be provided an account by the instructor in the invitation to this course, you must have your Microsoft Azure account and Data Science Virutal Machine set up before you arrive at class.**
+**Unless you are explicitly told you will be provided an account by the instructor in the invitation to this workshop, you must have your Microsoft Azure account and Data Science Virutal Machine set up before you arrive at class.**
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/checkbox.png"><b>Option 1 - Free Account</b></p>
 
@@ -41,7 +41,7 @@ The free account gives you twelve months of time, and a limited amount of resour
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/checkbox.png"><b>Option 2 - Microsoft Developer Network Account (MSDN) Account</b></p>
 
-The best way to take this course is to use your [Microsoft Developer Network (MSDN) benefits if you have a subscription](https://marketplace.visualstudio.com/subscriptions).
+The best way to take this workshop is to use your [Microsoft Developer Network (MSDN) benefits if you have a subscription](https://marketplace.visualstudio.com/subscriptions).
 
 - [Open this resource and click the "Activate your monthly Azure credit" button](https://azure.microsoft.com/en-us/pricing/member-offers/credit-for-visual-studio-subscribers/)
 
@@ -51,9 +51,9 @@ You can also use your own account or one provided to you by your organization, b
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/checkbox.png"><b>Option 4 - Use an account provided by your instructor</b></p>
 
-Your course invitation may have instructed you that they will provide a Microsoft Azure account for you to use. If so, you will receive instructions that it will be provided.
+Your workshop invitation may have instructed you that they will provide a Microsoft Azure account for you to use. If so, you will receive instructions that it will be provided.
 
-**Unless you received explicit instructions in your course invitations, you much create either a free, MSDN or Personal account. You must have an account prior to the course.**
+**Unless you received explicit instructions in your workshop invitations, you much create either a free, MSDN or Personal account. You must have an account prior to the workshop.**
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 2: Request Access Credentials to SQL Server 2019 BDC features</b></p>
 <br>
@@ -69,12 +69,13 @@ You will use these credentials in a subsequent step. It can take up to a week to
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 2: Prepare Your Workstation</b></p>
 <br>
 The instructions that follow are the same for either a "base metal" workstation or laptop, or a Virtual Machine. It's best to have at least 4MB or RAM on the management system, and these instructions assume that you are not planning to run the database server or any Containers on the workstation. It's also assumed that you are using a current version of Windows, either desktop or server.
+<br>
 
-You can copy and paste all of the commands that follow in a PowerShell window that you run as Admistrator. 
+*(You can copy and paste all of the commands that follow in a PowerShell window that you run as the system Admistrator)*
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/checkbox.png">Updates<p>
 
-First, ensure all of your updates are current. You can use the following commands to do that in an Administrator PowerShell session:
+First, ensure all of your updates are current. You can use the following commands to do that in an Administrator-level PowerShell session:
 
 <pre>
 $host.UI.RawUI.WindowTitle = "Standard Install for Windows. Classroom or test system only - use at your own risk!"
@@ -126,7 +127,7 @@ You'll need to click the MSI file once it downloads, take all defaults.
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 4: Install Python 3, pip3 and git</b></p>
 
-While `git` has not been mentioned as a requirement for SQL Server, it's used for the course. 
+While `git` has not been mentioned as a requirement for SQL Server, it's used for the workshop. 
 
 <pre>
 [console]::ForegroundColor = "DarkCyan"
@@ -166,7 +167,7 @@ pause
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 7: Install Azure Data Studio and Extensions</b></p>
 
-The primary management tool for working with SQL Server Big Data Clusters is Azure Data Studio. You will also use this tool in your course.
+The primary management tool for working with SQL Server Big Data Clusters is Azure Data Studio. You will also use this tool in your workshop.
 
 <pre>
 [console]::ForegroundColor = "DarkRed"

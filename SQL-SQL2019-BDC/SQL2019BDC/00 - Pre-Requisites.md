@@ -2,7 +2,7 @@
 
 # Workshop: Microsoft SQL Server Big Data Clusters Architecture
 
-#### <i>A Microsoft workshop from the SQL Server team</i>
+#### <i>A Microsoft Course from the SQL Server team</i>
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
@@ -16,7 +16,7 @@ For this workshop, you will use Microsoft Windows as the base workstation, altou
 
 The other requirements are:
 
-- **Microsoft Azure**: This workshop uses the Microsoft Azure platform to host the Kubernetes cluster (using the Azure Kubernetes Service), and optionally you can deploy a system there to act as a workstation. You can use a free Azure account, an MSDN Account, your own account, or potentially one provided for you, as long as you can create about $80.00 (U.S.) worth of assets.
+- **Microsoft Azure**: This workshop uses the Microsoft Azure platform to host the Kubernetes cluster (using the Azure Kubernetes Service), and optionally you can deploy a system there to act as a workstation. You can use a free Azure account, an MSDN Account, your own account, or potentially one provided for you, as long as you can create about $100.00 (U.S.) worth of assets.
 - **SQL Server Big Data Cluster credentials** - As of this writing, you must have an invitation code to install and configure SQL Server Big Data Clusters.
 - **Azure Command Line Interface**: The Azure CLI allows you to work from the command line on multiple platforms to interact with your Azure subscription, and also has control statements for AKS.
 - **Python (3)**: Python version 3.5 is used by the SQL Server programs to deploy and manage a SQL Server Big Data Cluster.
@@ -49,7 +49,7 @@ The best way to take this workshop is to use your [Microsoft Developer Network (
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/checkbox.png"><b>Option 3 - Use Your Own Account</b></p>
 
-You can also use your own account or one provided to you by your organization, but you must be able to create a resource group and create, start, and manage a Data Science Virtual Machine (DSVM). More on that product below.
+You can also use your own account or one provided to you by your organization, but you must be able to create a resource group and create, start, and manage a Data Science Virtual Machine (DSVM) and an Azure AKS cluster. 
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/checkbox.png"><b>Option 4 - Use an account provided by your instructor</b></p>
 
@@ -63,7 +63,7 @@ As of this writing, the SQL Server Big Data Cluster feature is enabled for previ
 
 https://aka.ms/eapsignup 
 
-When you access that site, put the words **Purpose: Workshop** in the *Please describe the specific application or workload that you will be testing with SQL Server 2019?* box. You will be automatically approved. For the *Platform*, select **Azure Kubernetes Service (AKS)**.
+When you access that site, put the words **Purpose: SQL Bits 2019 Workshop** in the *Please describe the specific application or workload that you will be testing with SQL Server 2019?* box. You will be automatically approved. For the *Platform*, select **Azure Kubernetes Service (AKS)**.
 
 You will use these credentials in a subsequent step. It can take up to a week to receive your code. 
 
@@ -110,9 +110,11 @@ pause
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/checkbox.png">Environment Variables</p>
 
 Your environment variables control how the cluster will be built. 
-<p><a href="https://docs.microsoft.com/en-us/sql/big-data-cluster/quickstart-big-data-cluster-deploy?view=sqlallproducts-allversions#define-environment-variables" target="_blank">Refer to this documentation for both the latest statements to run, and for what they need to be set to.</a></p> The variables for name, password and e-mail for the Big Data Cluster is provided to you when you request access to the Early Adopter program. 
+<p><a href="https://docs.microsoft.com/en-us/sql/big-data-cluster/quickstart-big-data-cluster-deploy?view=sqlallproducts-allversions#define-environment-variables" target="_blank">Refer to this documentation for both the latest statements to run, and for what they need to be set to. These change based on the current release of the Private Preview.</a></p> 
 
-(Note that in production, you'll set these environment variables permanently using the Control Panel or by adding them with a Registry command)
+The variables for **name**, **password** and **e-mail** for the Big Data Cluster is provided to you when you request access to the Early Adopter program. 
+
+*(Note that in production, you'll set these environment variables permanently using the Control Panel or by adding them with a Registry command, and may be handled by an improved installation experience)*
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 3: Install Azure CLI</b></p>
 

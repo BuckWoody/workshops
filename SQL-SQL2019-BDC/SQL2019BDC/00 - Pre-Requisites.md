@@ -12,7 +12,7 @@ The "Microsoft SQL Server Big Data Clusters Architecture" workshop is taught usi
 
 *(Note: Due to the nature of working with large-scale systems, it may not be possible for you to set up everything you need to perform each lab exercise.  Participation in each Activity is optional - we will be working through the exercises together, but if you cannot install any software or don't have an Azure account, the instructor will work through each exercise in the workshop. You will also have full access to these materials so that you can work through them later when you have more time and resources.)*
 
-For this workshop, you will use Microsoft Windows as the base workstation, altough Apple and Linux operating systems can be used in production. You can <a href="https://developer.microsoft.com/en-us/windows/downloads/virtual-machines" target="_blank">download a Windows 10 Workstation Image for VirtualBox, Hyper-V, VMWare, or Parallels for free here</a>. 
+For this workshop, you will use Microsoft Windows as the base workstation, although Apple and Linux operating systems can be used in production. You can <a href="https://developer.microsoft.com/en-us/windows/downloads/virtual-machines" target="_blank">download a Windows 10 Workstation Image for VirtualBox, Hyper-V, VMWare, or Parallels for free here</a>. 
 
 The other requirements are:
 
@@ -20,8 +20,8 @@ The other requirements are:
 - **SQL Server Big Data Cluster credentials** - As of this writing, you must have an invitation code to install and configure SQL Server Big Data Clusters.
 - **Azure Command Line Interface**: The Azure CLI allows you to work from the command line on multiple platforms to interact with your Azure subscription, and also has control statements for AKS.
 - **Python (3)**: Python version 3.5 is used by the SQL Server programs to deploy and manage a SQL Server Big Data Cluster.
-- **The pip3 Package**: The Python package manager *pip3* is used to install various SQL Server BDC deployment and configuraton tools. 
-- **The kubectl program**: The *kubectl* program is the commnad-line control feature for Kubernetes.
+- **The pip3 Package**: The Python package manager *pip3* is used to install various SQL Server BDC deployment and configuration tools. 
+- **The kubectl program**: The *kubectl* program is the command-line control feature for Kubernetes.
 - **The mssqlctl program**: The *mssqlctl* program is the deployment and configuration tool for SQL Server Big Data Clusters.
 - **Azure Data Studio**: The *Azure Data Studio*, along with various Extensions, is used for both the query and management of SQL Server BDC. In addition, you will use this tool to participate in the workshop.
 
@@ -31,7 +31,7 @@ The other requirements are:
 
 You have multiple options for setting up Microsoft Azure account to complete this workshop. You can use a free account, a Microsoft Developer Network (MSDN) account, a personal or corporate account, or in some cases a pass may be provided by the instructor. (Note: for most classes, the MSDN account is best)
 
-**Unless you are explicitly told you will be provided an account by the instructor in the invitation to this workshop, you must have your Microsoft Azure account and Data Science Virutal Machine set up before you arrive at class.**
+**Unless you are explicitly told you will be provided an account by the instructor in the invitation to this workshop, you must have your Microsoft Azure account and Data Science Virtual Machine set up before you arrive at class.**
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/checkbox.png"><b>Option 1 - Free Account</b></p>
 
@@ -73,25 +73,21 @@ You will use these credentials in a subsequent step. It can take up to a week to
 The instructions that follow are the same for either a "base metal" workstation or laptop, or a Virtual Machine. It's best to have at least 4MB or RAM on the management system, and these instructions assume that you are not planning to run the database server or any Containers on the workstation. It's also assumed that you are using a current version of Windows, either desktop or server.
 <br>
 
-*(You can copy and paste all of the commands that follow in a PowerShell window that you run as the system Admistrator)*
+*(You can copy and paste all of the commands that follow in a PowerShell window that you run as the system Administrator)*
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/checkbox.png">Updates<p>
 
 First, ensure all of your updates are current. You can use the following commands to do that in an Administrator-level PowerShell session:
 
 <pre>
-$host.UI.RawUI.WindowTitle = "Standard Install for Windows. Classroom or test system only - use at your own risk!"
-[console]::BackgroundColor = "Black"
+write-host "Standard Install for Windows. Classroom or test system only - use at your own risk!"
 Set-ExecutionPolicy RemoteSigned
-pause
 
-[console]::ForegroundColor = "Red"
 write-host "Update Windows"
 Install-Module PSWindowsUpdate
 Import-Module PSWindowsUpdate
 Get-WindowsUpdate
 Install-WindowsUpdate
-pause
 </pre>
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/checkbox.png">Install Chocolaty Windows package Manager</p>
@@ -99,12 +95,9 @@ pause
 Next, install the Chocolaty Windows Package manager to aid in command-line installations:
 
 <pre>
-[console]::ForegroundColor = "Blue"
 write-host "Install Chocolaty" 
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 choco feature enable -n allowGlobalConfirmation
-pause
-
 </pre>
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/checkbox.png">Environment Variables</p>
@@ -121,30 +114,22 @@ The variables for **name**, **password** and **e-mail** for the Big Data Cluster
 The Azure Command Line Utility is used to set up and control Azure resources. Run the following commands in your elevated PowerShell window:
 
 <pre>
-[console]::ForegroundColor = "Green"
 write-host "Install Azure CLI"
 start "https://aka.ms/installazurecliwindows"
-pause 
 </pre>
 
 You'll need to click the MSI file once it downloads, take all defaults. 
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 4: Install Python 3, pip3 and git</b></p>
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 4: Install Python 3 and git</b></p>
 
-While `git` has not been mentioned as a requirement for SQL Server, it's used for the workshop. 
+While `git` has not been mentioned as a requirement for SQL Server, it's used for the workshop. First you'll install Python.
 
 <pre>
-[console]::ForegroundColor = "DarkCyan"
 write-host "Install Python 3"
 choco install python3 
-pause
 
-
-[console]::ForegroundColor = "Red"
 write-host "Install git"
 choco install git
-pause 
-
 </pre>
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 5: Install kubectl</b></p>
@@ -152,10 +137,8 @@ pause
 The `kubectl` program is used to deploy, configure and manage Kubernetes Clusters. It is used in several parts of the Big Data Clusters program.
 
 <pre>
-[console]::ForegroundColor = "Cyan"
 write-host "Install kubectl"
 choco install kubernetes-cli 
-pause
 </pre>
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 6: Install mssqlctl</b></p>
@@ -166,7 +149,6 @@ the `mssqlctl` program then deploys the SQL Server Big Data Cluster environment 
 write-host "Install mssqlctl"
 C:\python37\python.exe -m pip install --upgrade pip
 C:\Python37\Scripts\pip3 install --extra-index-url https://private-repo.microsoft.com/python/ctp-2.1 mssqlctl 
-pause
 </pre>
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/point1.png"><b>Activity 7: Install Azure Data Studio and Extensions</b></p>
@@ -174,27 +156,23 @@ pause
 The primary management tool for working with SQL Server Big Data Clusters is Azure Data Studio. You will also use this tool in your workshop.
 
 <pre>
-[console]::ForegroundColor = "DarkRed"
 write-host "Install Azure Data Studio" 
 start "https://go.microsoft.com/fwlink/?linkid=2038320"
-pause
 </pre>
 
 Once again, download the MSI and run it from there. It's always a good idea after this many installations to run Windows Update again:
 
 <pre>
-[console]::ForegroundColor = "Red"
 write-host "Re-Update Windows"
 Get-WindowsUpdate
 Install-WindowsUpdate
-pause
 </pre>
 
 **Note: If you are using a Virtual Machine in Azure, power off the Virtual Machine using the Azure Portal every time you are done with it. Turning off the VM using just the Windows power off in the VM only stops it running, but you are still charged for the VM if you do not stop it from the Portal. Stop the VM from the Portal unless you are actively using it.**
 
 <p><img style="margin: 0px 15px 15px 0px;" src="../graphics/owl.png"><b>For Further Study</b></p>
 <ul>
-    <li><a href="https://docs.microsoft.com/en-us/sql/big-data-cluster/quickstart-big-data-cluster-deploy?view=sqlallproducts-allversions" target="_blank">Official Documentation for this section</a></li>
+    <li><a href="https://docs.microsoft.com/en-us/sql/big-data-cluster/big-data-cluster-overview?view=sqlallproducts-allversions" target="_blank">Official Documentation for this section</a></li>
 </ul>
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/geopin.png"><b >Next Steps</b></p>

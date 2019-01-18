@@ -6,17 +6,30 @@
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/textbubble.png"> <h2>About this Workshop</h2>
+<dl style="text-align: right;">
+
+  <dt><a href="#about">About this Workshop</a></dt>
+  <dt><a href="#businessapplications">Business Applications of this Workshop</a></dt>
+  <dt><a href="#technologies">Technologies used in this Workshop</a></dt>
+  <dt><a href="#prereqs">Before Taking this Workshop</a></dt>
+  <dt><a href="#details">Workshop Details</a></dt>
+  <dt><a href="#related">Related Workshops</a></dt>
+  <dt><a href="#modules">Workshop Modules</a></dt>
+  <dt><a href="#nextsteps">Next Steps</a></dt>
+
+</dl>
+
+<img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/textbubble.png"> <h2><a name="about">About this Workshop</a></h2>
 
 Welcome to this Microsoft solutions workshop on *Microsoft SQL Server Big Data Clusters Architecture*. In this workshop, you'll learn how SQL Server big data clusters implements large-scale data processing and machine learning, and how to select and plan for the proper architecture to enable machine learning to train your models using Python, R, Java or SparkML to operationalize these models, and how to deploy your intelligent apps side-by-side with their data.
 
 The focus of this workshop is to understand how to deploy an on-premise, hybrid or local environment of a big data cluster, and understanding the components of the big data solution architecture.
 
-You'll start by understanding the concepts of big data analytics, and you'll get an overview of the technologies (such as containers, Kubernetes, Spark and HDFS, machine learning, and other technologies) that you will use throughout the workshop. Next, you'll understand the architecture of SQL Server Big Data Clusters. You'll learn how to create external tables over other data sources to unify your data, and how to use Spark to run big queries over your data in HDFS or do data preparation. You'll review a complete solution for an end-to-end sceanario, with a focus on how to extrapolate what you have learned to create other solutions for your organization.
+You'll start by understanding the concepts of big data analytics, and you'll get an overview of the technologies (such as containers, Kubernetes, Spark and HDFS, machine learning, and other technologies) that you will use throughout the workshop. Next, you'll understand the architecture of SQL Server Big Data Clusters. You'll learn how to create external tables over other data sources to unify your data, and how to use Spark to run big queries over your data in HDFS or do data preparation. You'll review a complete solution for an end-to-end scenario, with a focus on how to extrapolate what you have learned to create other solutions for your organization.
 
 This README.MD file explains how the workshop is laid out, what you will learn, and the technologies you will use in this solution.
 
-(You can view all of the [source files for this workshop on this github site, along with other workshops as well. Open this link in a new tab to find out more.](https://github.com/BuckWoody/workshops))
+(You can view all of the [source files for this workshop on this GitHub site, along with other workshops as well. Open this link in a new tab to find out more.](https://github.com/BuckWoody/workshops))
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
@@ -47,7 +60,7 @@ The concepts and skills taught in this workshop form the starting points for:
     Data Scientists, to understand the environment used to analyze and solve specific predictive problems.
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
-<img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/building1.png"> <h2>Business Applications of this Workshop</h2>
+<img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/building1.png"> <h2><a name="businessapplications">Business Applications of this Workshop</a></h2>
 
 Businesses require near real-time insights from ever-larger sets of data from a variety of sources. Large-scale data ingestion requires scale-out storage and processing in ways that allow fast response times. In addition to simply querying this data, organizations want full analysis and even predictive capabilities over their data. 
 
@@ -55,7 +68,7 @@ Some industry examples of big data processing are in Retail (*Demand Prediction,
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/listcheck.png"> <h2>Technologies used in this Workshop</h2>
+<img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/listcheck.png"> <h2><a name="technologies">Technologies used in this Workshop</a></h2>
 
 The solution includes the following technologies - although you are not limited to these, they form the basis of the workshop. At the end of the workshop you will learn how to extrapolate these components into other solutions. You will cover these at an overview level, with references to much deeper training provided.
 
@@ -84,7 +97,7 @@ The solution includes the following technologies - although you are not limited 
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/owl.png"> <h2>Before Taking this Workshop</h2>
+<img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/owl.png"> <h2><a name="prereqs">Before Taking this Workshop</a></h2>
 
 You'll need a local system that you are able to install software on. The workshop demonstrations use Microsoft Windows as an operating system and all examples use Windows for the workshop. Optionally, you can use a Microsoft Azure Virtual Machine (VM) to install the software on and work with the solution.
 
@@ -104,7 +117,7 @@ If you are new to these, here are a few references you can complete prior to cla
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/education1.png"> <h2>Workshop Details</h2>
+<img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/education1.png"> <h2><a name="details">Workshop Details</a></h2>
 
 This workshop uses Azure Data Studio, Microsoft Azure AKS, and SQL Server (2019 and higher) with a focus on architecture and implementation.
 
@@ -120,13 +133,13 @@ This workshop uses Azure Data Studio, Microsoft Azure AKS, and SQL Server (2019 
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/pinmap.png"> <h2>Related Workshops</h2>
+<img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/pinmap.png"> <h2><a name="related">Related Workshops</a></h2>
 
  - [Technical guide to the Cortana Intelligence Solution Template for predictive maintenance in aerospace and other businesses](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/cortana-analytics-technical-guide-predictive-maintenance)
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/bookpencil.png"> <h2>Workshop Modules</h2>
+<img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/bookpencil.png"> <h2><a name="modules">Workshop Modules</a></h2>
 
 This is a modular workshop, and in each section, you'll learn concepts, technologies and processes to help you complete the solution.
 
@@ -145,6 +158,6 @@ This is a modular workshop, and in each section, you'll learn concepts, technolo
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/geopin.png"><b>Next Steps</b></p>
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="./graphics/geopin.png"><b><a name="nextsteps">Next Steps</a></b></p>
 
 Next, Continue to <a href="SQL2019BDC/00%20-%20Pre-Requisites.md" target="_blank"><i> Pre-Requisites</i></a>

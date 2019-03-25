@@ -1,4 +1,4 @@
-<img style="float: right;" src="./graphics/solutions-microsoft-logo-small.png">
+﻿<img style="float: right;" src="./graphics/solutions-microsoft-logo-small.png">
 
 ## Welcome to the Microsoft Workshops page for AI and Data Science
 
@@ -8,7 +8,6 @@ You'll find the source materials for the workshop labs here. Note that some of t
 
 ### Workshops List
 
-  - [SQL Server Big Data Clusters - Architecture](https://github.com/BuckWoody/workshops/tree/master/SQL-SQL2019-BDC)
   - [The Team Data Science Process with Python](https://github.com/BuckWoody/workshops/tree/master/TDSPPython)
   - [(Retired) Microsoft Azure Machine Learning Services (ALMS) and the Team Data Science Process](https://buckwoody.github.io/workshops/DataScienceAndTDSP/)
 
